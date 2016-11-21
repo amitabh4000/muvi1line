@@ -1,0 +1,2255 @@
+{
+    "name": "movieData",
+    "data": [
+        {
+            "id": "tt0111161",
+            "title": "The Shawshank Redemption",
+            "year": "1994",
+            "rating": "9.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//9O7gLzmreU0nGkIB6K3BsJbzvNv.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//xBKGJQsAIeweesB79KC89FpBrVr.jpg",
+            "regex": "/title/tt0111161"
+        },
+        {
+            "id": "tt0068646",
+            "title": "The Godfather",
+            "year": "1972",
+            "rating": "9.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//d4KNaTrltq6bpkFS01pYtyXa09m.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//6xKCYgH16UuwEGAyroLU6p8HLIn.jpg",
+            "regex": "/title/tt0068646"
+        },
+        {
+            "id": "tt0071562",
+            "title": "The Godfather: Part II",
+            "year": "1974",
+            "rating": "9.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//tHbMIIF51rguMNSastqoQwR0sBs.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//gLbBRyS7MBrmVUNce91Hmx9vzqI.jpg",
+            "regex": "/title/tt0071562"
+        },
+        {
+            "id": "tt0468569",
+            "title": "The Dark Knight",
+            "year": "2008",
+            "rating": "8.9",
+            "posterPath": "http://image.tmdb.org/t/p/w300//1hRoyzDtpgMU7Dz4JF22RANzQO7.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//nnMC0BM6XbjIIrT4miYmMtPGcQV.jpg",
+            "regex": "/title/tt0468569"
+        },
+        {
+            "id": "tt0108052",
+            "title": "Schindler's List",
+            "year": "1993",
+            "rating": "8.9",
+            "posterPath": "http://image.tmdb.org/t/p/w300//yPisjyLweCl1tbgwgtzBCNCBle.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//rIpSszng8P0DL0TimSzZbpfnvh1.jpg",
+            "regex": "/title/tt0108052"
+        },
+        {
+            "id": "tt0050083",
+            "title": "12 Angry Men",
+            "year": "1957",
+            "rating": "8.9",
+            "posterPath": "http://image.tmdb.org/t/p/w300//qcL1YfkCxfhsdO6sDDJ0PpzMF9n.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//lH2Ga8OzjU1XlxJ73shOlPx6cRw.jpg",
+            "regex": "/title/tt0050083"
+        },
+        {
+            "id": "tt0110912",
+            "title": "Pulp Fiction",
+            "year": "1994",
+            "rating": "8.9",
+            "posterPath": "http://image.tmdb.org/t/p/w300//dM2w364MScsjFf8pfMbaWUcWrR.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//mte63qJaVnoxkkXbHkdFujBnBgd.jpg",
+            "regex": "/title/tt0110912"
+        },
+        {
+            "id": "tt0167260",
+            "title": "The Lord of the Rings: The Return of the King",
+            "year": "2003",
+            "rating": "8.9",
+            "posterPath": "http://image.tmdb.org/t/p/w300//50LoR9gJhbWZ5PpoHgi8MNTYgzd.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//8BPZO0Bf8TeAy8znF43z8soK3ys.jpg",
+            "regex": "/title/tt0167260"
+        },
+        {
+            "id": "tt0060196",
+            "title": "The Good, the Bad and the Ugly",
+            "year": "1966",
+            "rating": "8.9",
+            "posterPath": "http://image.tmdb.org/t/p/w300//wfPHdfofBD5PN96dV96a51B3Ja2.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//xGC2fY5KFmtuXnsuQwYQKFOLZFy.jpg",
+            "regex": "/title/tt0060196"
+        },
+        {
+            "id": "tt0137523",
+            "title": "Fight Club",
+            "year": "1999",
+            "rating": "8.8",
+            "posterPath": "http://image.tmdb.org/t/p/w300//811DjJTon9gD6hZ8nCjSitaIXFQ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//8uO0gUM8aNqYLs1OsTBQiXu0fEv.jpg",
+            "regex": "/title/tt0137523"
+        },
+        {
+            "id": "tt0120737",
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "year": "2001",
+            "rating": "8.8",
+            "posterPath": "http://image.tmdb.org/t/p/w300//bxVxZb5O9OxCO0oRUNdCnpy9NST.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//pIUvQ9Ed35wlWhY2oU6OmwEsmzG.jpg",
+            "regex": "/title/tt0120737"
+        },
+        {
+            "id": "tt0080684",
+            "title": "Star Wars: Episode V - The Empire Strikes Back",
+            "year": "1980",
+            "rating": "8.7",
+            "posterPath": "http://image.tmdb.org/t/p/w300//6u1fYtxG5eqjhtCPDx04pJphQRW.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//AkE7LQs2hPMG5tpWYcum847Knre.jpg",
+            "regex": "/title/tt0080684"
+        },
+        {
+            "id": "tt0109830",
+            "title": "Forrest Gump",
+            "year": "1994",
+            "rating": "8.7",
+            "posterPath": "http://image.tmdb.org/t/p/w300//z4ROnCrL77ZMzT0MsNXY5j25wS2.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//ctOEhQiFIHWkiaYp7b0ibSTe5IL.jpg",
+            "regex": "/title/tt0109830"
+        },
+        {
+            "id": "tt1375666",
+            "title": "Inception",
+            "year": "2010",
+            "rating": "8.7",
+            "posterPath": "http://image.tmdb.org/t/p/w300//qmDpIHrmpJINaRKAfWQfftjCdyi.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//s2bT29y0ngXxxu2IA8AOzzXTRhd.jpg",
+            "regex": "/title/tt1375666"
+        },
+        {
+            "id": "tt0167261",
+            "title": "The Lord of the Rings: The Two Towers",
+            "year": "2002",
+            "rating": "8.7",
+            "posterPath": "http://image.tmdb.org/t/p/w300//5o5fv1dHG7vWoH2hmqwihVPBoBm.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dG4BmM32XJmKiwopLDQmvXEhuHB.jpg",
+            "regex": "/title/tt0167261"
+        },
+        {
+            "id": "tt0073486",
+            "title": "One Flew Over the Cuckoo's Nest",
+            "year": "1975",
+            "rating": "8.7",
+            "posterPath": "http://image.tmdb.org/t/p/w300//2Sns5oMb356JNdBHgBETjIpRYy9.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//8qpUbdLQJHPnTi0DgnBGHZJokSz.jpg",
+            "regex": "/title/tt0073486"
+        },
+        {
+            "id": "tt0099685",
+            "title": "Goodfellas",
+            "year": "1990",
+            "rating": "8.7",
+            "posterPath": "http://image.tmdb.org/t/p/w300//pwpGfTImTGifEGgLb3s6LRPd4I6.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//xDEOxA01480uLTWuvQCw61VmDBt.jpg",
+            "regex": "/title/tt0099685"
+        },
+        {
+            "id": "tt0133093",
+            "title": "The Matrix",
+            "year": "1999",
+            "rating": "8.7",
+            "posterPath": "http://image.tmdb.org/t/p/w300//lZpWprJqbIFpEV5uoHfoK0KCnTW.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//7u3pxc0K1wx32IleAkLv78MKgrw.jpg",
+            "regex": "/title/tt0133093"
+        },
+        {
+            "id": "tt0047478",
+            "title": "Seven Samurai",
+            "year": "1954",
+            "rating": "8.6",
+            "posterPath": "http://image.tmdb.org/t/p/w300//5hqbJSmtAimbaP3XcYshCixuUtk.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//61vLiK96sbXeHpQiMxI4CuqBA3z.jpg",
+            "regex": "/title/tt0047478"
+        },
+        {
+            "id": "tt0076759",
+            "title": "Star Wars: Episode IV - A New Hope",
+            "year": "1977",
+            "rating": "8.6",
+            "posterPath": "http://image.tmdb.org/t/p/w300//tvSlBzAdRE29bZe5yYWrJ2ds137.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//4iJfYYoQzZcONB9hNzg0J0wWyPH.jpg",
+            "regex": "/title/tt0076759"
+        },
+        {
+            "id": "tt0317248",
+            "title": "City of God",
+            "year": "2002",
+            "rating": "8.6",
+            "posterPath": "http://image.tmdb.org/t/p/w300//gCqnQaq8T4CfioP9uETLx9iMJF4.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//k4BAPrE5WkNLvpsPsiMfu8W4Zyi.jpg",
+            "regex": "/title/tt0317248"
+        },
+        {
+            "id": "tt0114369",
+            "title": "Se7en",
+            "year": "1995",
+            "rating": "8.6",
+            "posterPath": "http://image.tmdb.org/t/p/w300//zgB9CCTDlXRv50Z70ZI4elJtNEk.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//ba4CpvnaxvAgff2jHiaqJrVpZJ5.jpg",
+            "regex": "/title/tt0114369"
+        },
+        {
+            "id": "tt0102926",
+            "title": "The Silence of the Lambs",
+            "year": "1991",
+            "rating": "8.6",
+            "posterPath": "http://image.tmdb.org/t/p/w300//qjAyTj2BSth1EQ89vNfo0JYVPFN.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//upTn8UYt1n92opIEIyzh8HljB0F.jpg",
+            "regex": "/title/tt0102926"
+        },
+        {
+            "id": "tt0038650",
+            "title": "It's a Wonderful Life",
+            "year": "1946",
+            "rating": "8.6",
+            "posterPath": "http://image.tmdb.org/t/p/w300//qZJ6d1SDsfoztmBfStwkBeTaOwG.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//6fDqNg8g7NJXUmsF1Dm4Y3iTAZW.jpg",
+            "regex": "/title/tt0038650"
+        },
+        {
+            "id": "tt0114814",
+            "title": "The Usual Suspects",
+            "year": "1995",
+            "rating": "8.6",
+            "posterPath": "http://image.tmdb.org/t/p/w300//jgJoRWltoS17nD5MAQ1yK2Ztefw.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//c7e3nH3wtSBDrHRB63onrGptl6D.jpg",
+            "regex": "/title/tt0114814"
+        },
+        {
+            "id": "tt0118799",
+            "title": "Life Is Beautiful",
+            "year": "1997",
+            "rating": "8.6",
+            "posterPath": "http://image.tmdb.org/t/p/w300//f7DImXDebOs148U4uPjI61iDvaK.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//bORe0eI72D874TMawOOFvqWS6Xe.jpg",
+            "regex": "/title/tt0118799"
+        },
+        {
+            "id": "tt0110413",
+            "title": "Léon: The Professional",
+            "year": "1994",
+            "rating": "8.6",
+            "posterPath": "http://image.tmdb.org/t/p/w300//gE8S02QUOhVnAmYu4tcrBlMTujz.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//mGN0lH2phYfesyEVqP2xvGUaxAQ.jpg",
+            "regex": "/title/tt0110413"
+        },
+        {
+            "id": "tt0064116",
+            "title": "Once Upon a Time in the West",
+            "year": "1968",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//giwzmbbRZDva184wBOHDXlrmBa3.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//sNaQWTsQFfdhjKweXbgjSHKZ8YS.jpg",
+            "regex": "/title/tt0064116"
+        },
+        {
+            "id": "tt0245429",
+            "title": "Spirited Away",
+            "year": "2001",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//ynXoOxmDHNQ4UAy0oU6avW71HVW.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//djgM2d3e42p9GFQObg6lwK2SVw2.jpg",
+            "regex": "/title/tt0245429"
+        },
+        {
+            "id": "tt0120815",
+            "title": "Saving Private Ryan",
+            "year": "1998",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//gc7IN6bWNaWXv4vI6cxSmeB7PeO.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//gRtLcCQOpYUI9ThdVzi4VUP8QO3.jpg",
+            "regex": "/title/tt0120815"
+        },
+        {
+            "id": "tt0120586",
+            "title": "American History X",
+            "year": "1998",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//fXepRAYOx1qC3wju7XdDGx60775.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//i9A0UMFg1hI2kLyCCwnmSbpT2cd.jpg",
+            "regex": "/title/tt0120586"
+        },
+        {
+            "id": "tt0034583",
+            "title": "Casablanca",
+            "year": "1942",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//wOBKAoUJZb5qTsWv5XXvVV2vUzz.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//xRqsFFteJrvLHxswk78NzU7zOrU.jpg",
+            "regex": "/title/tt0034583"
+        },
+        {
+            "id": "tt0816692",
+            "title": "Interstellar",
+            "year": "2014",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//nBNZadXqJSdt05SHLqgT0HuC5Gm.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//xu9zaAevzQ5nnrsXN6JcahLnG4i.jpg",
+            "regex": "/title/tt0816692"
+        },
+        {
+            "id": "tt0054215",
+            "title": "Psycho",
+            "year": "1960",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//4ZP1DHlqlp83DH2lqCdqpU2g51c.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//3md49VBCeqY6MSNyAVY6d5eC6bA.jpg",
+            "regex": "/title/tt0054215"
+        },
+        {
+            "id": "tt0021749",
+            "title": "City Lights",
+            "year": "1931",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//rbx0k8IYSrBx9YhG7q3ZbVprAEx.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//57pbj8Ch2VzzikD2kyNXFJ3YpMW.jpg",
+            "regex": "/title/tt0021749"
+        },
+        {
+            "id": "tt0082971",
+            "title": "Raiders of the Lost Ark",
+            "year": "1981",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//44sKJOGP3fTm4QXBcIuqu0RkdP7.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dU1CArBM4YsKLfG8YvhtuTJJaGR.jpg",
+            "regex": "/title/tt0082971"
+        },
+        {
+            "id": "tt0027977",
+            "title": "Modern Times",
+            "year": "1936",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//m4ZCx2Iwr418IGPxRfoKnpumz9X.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//s58uDwuyVMqgsbmnfyrbpfF147.jpg",
+            "regex": "/title/tt0027977"
+        },
+        {
+            "id": "tt1675434",
+            "title": "The Intouchables",
+            "year": "2011",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//4mFsNQwbD0F237Tx7gAPotd0nbJ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//ihWaJZCUIon2dXcosjQG2JHJAPN.jpg",
+            "regex": "/title/tt1675434"
+        },
+        {
+            "id": "tt0120689",
+            "title": "The Green Mile",
+            "year": "1999",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//3yJUlOtVa09CYJocwBU8eAryja0.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dATygzDbQGJWlolx2vebgqFYAKO.jpg",
+            "regex": "/title/tt0120689"
+        },
+        {
+            "id": "tt0047396",
+            "title": "Rear Window",
+            "year": "1954",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//6EDhk01fESTcdfRAvIHct4jfWk5.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//co13pfhBY01AgH8XT8PaCV4ZliV.jpg",
+            "regex": "/title/tt0047396"
+        },
+        {
+            "id": "tt0103064",
+            "title": "Terminator 2: Judgment Day",
+            "year": "1991",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//2y4dmgWYRMYXdD1UyJVcn2HSd1D.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//d9AqtruwS8nljKjL5aYzM42hQJr.jpg",
+            "regex": "/title/tt0103064"
+        },
+        {
+            "id": "tt0407887",
+            "title": "The Departed",
+            "year": "2006",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//tGLO9zw5ZtCeyyEWgbYGgsFxC6i.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//8Od5zV7Q7zNOX0y9tyNgpTmoiGA.jpg",
+            "regex": "/title/tt0407887"
+        },
+        {
+            "id": "tt0253474",
+            "title": "The Pianist",
+            "year": "2002",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//iunmxWkOi7Vk17Ob3G2HwwjgHsr.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//xUR95VFV1UTyzS1C8Lj06hi2n2M.jpg",
+            "regex": "/title/tt0253474"
+        },
+        {
+            "id": "tt0088763",
+            "title": "Back to the Future",
+            "year": "1985",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//pTpxQB1N0waaSc3OSn0e9oc8kx9.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//x4N74cycZvKu5k3KDERJay4ajR3.jpg",
+            "regex": "/title/tt0088763"
+        },
+        {
+            "id": "tt2582802",
+            "title": "Whiplash",
+            "year": "2014",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//lIv1QinFqz4dlp5U4lQ6HaiskOZ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//6bbZ6XyvgfjhQwbplnUh1LSj1ky.jpg",
+            "regex": "/title/tt2582802"
+        },
+        {
+            "id": "tt0172495",
+            "title": "Gladiator",
+            "year": "2000",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//6WBIzCgmDCYrqh64yDREGeDk9d3.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//5vZw7ltCKI0JiOYTtRxaIC3DX0e.jpg",
+            "regex": "/title/tt0172495"
+        },
+        {
+            "id": "tt0209144",
+            "title": "Memento",
+            "year": "2000",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//fQMSaP88cf1nz4qwuNEEFtazuDM.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//oBUznaSdjkY3HtQUzAxgdIZqh4w.jpg",
+            "regex": "/title/tt0209144"
+        },
+        {
+            "id": "tt0078788",
+            "title": "Apocalypse Now",
+            "year": "1979",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//l8dn7rKbjP36PtHsViHGpzf5ey7.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//k91Dag8AZbhjIJqrtf7F1bQnGPg.jpg",
+            "regex": "/title/tt0078788"
+        },
+        {
+            "id": "tt0482571",
+            "title": "The Prestige",
+            "year": "2006",
+            "rating": "8.5",
+            "posterPath": "http://image.tmdb.org/t/p/w300//5MXyQfz8xUP3dIFPTubhTsbFY6N.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//c5o7FN2vzI7xlU6IF1y64mgcH9E.jpg",
+            "regex": "/title/tt0482571"
+        },
+        {
+            "id": "tt0110357",
+            "title": "The Lion King",
+            "year": "1994",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//bKPtXn9n4M4s8vvZrbw40mYsefB.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//klI0K4oQMsLhHdjA9Uw8WLugk9v.jpg",
+            "regex": "/title/tt0110357"
+        },
+        {
+            "id": "tt0057012",
+            "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+            "year": "1964",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//ls9r2SG2IHJyCfpT0vxZZiT7ynF.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//8Sh5rRcOrBy4AIm3keZ50dOIn4D.jpg",
+            "regex": "/title/tt0057012"
+        },
+        {
+            "id": "tt0043014",
+            "title": "Sunset Blvd.",
+            "year": "1950",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//oFwzvRgfxJc0FUr2mwYTi10dk3G.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//wFkv7l6iz0fgXtmS24lTNyz8tV8.jpg",
+            "regex": "/title/tt0043014"
+        },
+        {
+            "id": "tt0078748",
+            "title": "Alien",
+            "year": "1979",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//2h00HrZs89SL3tXB4nbkiM7BKHs.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//si4PH5RjbpdQZi3BQvV6eiBNjYD.jpg",
+            "regex": "/title/tt0078748"
+        },
+        {
+            "id": "tt0032553",
+            "title": "The Great Dictator",
+            "year": "1940",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//4dPMIlHN5y8DK1H1kbjstJciUJG.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//qkpsvso2neEr7v6YnyMoZtm6R9F.jpg",
+            "regex": "/title/tt0032553"
+        },
+        {
+            "id": "tt0405094",
+            "title": "The Lives of Others",
+            "year": "2006",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//iJ8EJyjBcb8wkXEEjH0Z3y5SlO7.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//86yhBiDcxe2Psicwn82QMD7cHlM.jpg",
+            "regex": "/title/tt0405094"
+        },
+        {
+            "id": "tt0095765",
+            "title": "Cinema Paradiso",
+            "year": "1988",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//6rG3t9C7jCThQIUCYTkpSGLcMXL.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//tVi83ttAeyMJinYpy6xfgJSpzvP.jpg",
+            "regex": "/title/tt0095765"
+        },
+        {
+            "id": "tt0050825",
+            "title": "Paths of Glory",
+            "year": "1957",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//f3DEXseCs3WBtvCv9pVPCtoluuG.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//sC4fbX0mKYEs16riivryzMl6GwR.jpg",
+            "regex": "/title/tt0050825"
+        },
+        {
+            "id": "tt1853728",
+            "title": "Django Unchained",
+            "year": "2012",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//5WJnxuw41sddupf8cwOxYftuvJG.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//qUcmEqnzIwlwZxSyTf3WliSfAjJ.jpg",
+            "regex": "/title/tt1853728"
+        },
+        {
+            "id": "tt0081505",
+            "title": "The Shining",
+            "year": "1980",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//9fgh3Ns1iRzlQNYuJyK0ARQZU7w.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//h4DcDCOkQBENWBJZjNlPv3adQfM.jpg",
+            "regex": "/title/tt0081505"
+        },
+        {
+            "id": "tt0095327",
+            "title": "Grave of the Fireflies",
+            "year": "1988",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//bwVhmPpydv8P7mWfrmL3XVw0MV5.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//fCUIuG7y4YKC3hofZ8wsj7zhCpR.jpg",
+            "regex": "/title/tt0095327"
+        },
+        {
+            "id": "tt0910970",
+            "title": "WALL·E",
+            "year": "2008",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//4qOKgcDcB0SojUIg2syzor1FeL7.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//2nFyTvssbtJMLC6eyYwwZ88gALD.jpg",
+            "regex": "/title/tt0910970"
+        },
+        {
+            "id": "tt1345836",
+            "title": "The Dark Knight Rises",
+            "year": "2012",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//dEYnvnUfXrqvqeRSqvIEtmzhoA8.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//3bgtUfKQKNi3nJsAB5URpP2wdRt.jpg",
+            "regex": "/title/tt1345836"
+        },
+        {
+            "id": "tt0169547",
+            "title": "American Beauty",
+            "year": "1999",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//or1MP8BZIAjqWYxPdPX724ydKar.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//z5J18ByLeOZ68iORfMXmxeFuwyL.jpg",
+            "regex": "/title/tt0169547"
+        },
+        {
+            "id": "tt0090605",
+            "title": "Aliens",
+            "year": "1986",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//nORMXEkYEbzkU5WkMWMgRDJwjSZ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//r2zB2vGLDQVxlRZISH7KzQ6reiC.jpg",
+            "regex": "/title/tt0090605"
+        },
+        {
+            "id": "tt0119698",
+            "title": "Princess Mononoke",
+            "year": "1997",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//gzlJkVfWV5VEG5xK25cvFGJgkDz.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dB2rATwfCbsPGfRLIoluBnKdVHb.jpg",
+            "regex": "/title/tt0119698"
+        },
+        {
+            "id": "tt0364569",
+            "title": "Oldeuboi",
+            "year": "2003",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//fct7n9V10E8t8a7wOR90Ccw0i48.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//cne1AaNoVPHOEUiwcdS7sSo1uJ5.jpg",
+            "regex": "/title/tt0364569"
+        },
+        {
+            "id": "tt0033467",
+            "title": "Citizen Kane",
+            "year": "1941",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//n8wfFsQ5vtm6dM8vdgXb6OLv2GY.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//xqDfLC7XbiaVN5XxZBWOJCX0hU7.jpg",
+            "regex": "/title/tt0033467"
+        },
+        {
+            "id": "tt0087843",
+            "title": "Once Upon a Time in America",
+            "year": "1984",
+            "rating": "8.4",
+            "posterPath": "http://image.tmdb.org/t/p/w300//fqP3Q7DWMFqW7mh11hWXbNwN9rz.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//vnT6HzjLSDrAweHn9xWykb8Ii6T.jpg",
+            "regex": "/title/tt0087843"
+        },
+        {
+            "id": "tt0082096",
+            "title": "Das Boot",
+            "year": "1981",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//kI1rptTkqDWj6SBRsYwguBvPViT.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//mc0PbKrrFRCUEpI09reR3ihHrIo.jpg",
+            "regex": "/title/tt0082096"
+        },
+        {
+            "id": "tt0053125",
+            "title": "North by Northwest",
+            "year": "1959",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//rEHP8ylmL3pcsDUEA6Z5qhajYui.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//AplR1QRswlXiM65GoifX8sDadME.jpg",
+            "regex": "/title/tt0053125"
+        },
+        {
+            "id": "tt0052357",
+            "title": "Vertigo",
+            "year": "1958",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//obhM86qyv8RsE69XSMTtT9FdE0b.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//idbDJjoTQxLejUUkDJ0FNEim6FB.jpg",
+            "regex": "/title/tt0052357"
+        },
+        {
+            "id": "tt0051201",
+            "title": "Witness for the Prosecution",
+            "year": "1957",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//heY0CCUqN4DY3X30thssZkvWZwx.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//mL2oUFzs4qQOU6pNAxbKw6j0ux7.jpg",
+            "regex": "/title/tt0051201"
+        },
+        {
+            "id": "tt0086190",
+            "title": "Star Wars: Episode VI - Return of the Jedi",
+            "year": "1983",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//jx5p0aHlbPXqe3AH9G15NvmWaqQ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//koE7aMeR2ATivI18mCbscLsI0Nm.jpg",
+            "regex": "/title/tt0086190"
+        },
+        {
+            "id": "tt0022100",
+            "title": "M",
+            "year": "1931",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//7a1Wx3gI13I1Svrme94DfbzxMHo.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//j7hS3yybvvAd9V217IkZSOjkOvY.jpg",
+            "regex": "/title/tt0022100"
+        },
+        {
+            "id": "tt0105236",
+            "title": "Reservoir Dogs",
+            "year": "1992",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//4ctv9pxKpwjTFevWQbvaqXkXbPF.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//gjOiE5EYH5sqcJYlSDZnVWRMgNV.jpg",
+            "regex": "/title/tt0105236"
+        },
+        {
+            "id": "tt0112573",
+            "title": "Braveheart",
+            "year": "1995",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//2qAgGeYdLjelOEqjW9FYvPHpplC.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dVZNSiUG8TDzNuaR87NKVTNYhWX.jpg",
+            "regex": "/title/tt0112573"
+        },
+        {
+            "id": "tt0211915",
+            "title": "Amélie",
+            "year": "2001",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//f0uorE7K7ggHfr8r7pUTOHWkOlE.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//nxhfenC1jb5EcTI5GYxqnjYZMId.jpg",
+            "regex": "/title/tt0211915"
+        },
+        {
+            "id": "tt0180093",
+            "title": "Requiem for a Dream",
+            "year": "2000",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//muym4jTjdLx7E6as09d1wlC3sOB.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//vzujbqGcPnrHi02hDnq3RDcVUbH.jpg",
+            "regex": "/title/tt0180093"
+        },
+        {
+            "id": "tt0066921",
+            "title": "A Clockwork Orange",
+            "year": "1971",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//hJYwfHxh9O7lyF7hTIT7ZoP8FYQ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//6GKCSrUmV83q3iGhKKxg19qtluD.jpg",
+            "regex": "/title/tt0066921"
+        },
+        {
+            "id": "tt0075314",
+            "title": "Taxi Driver",
+            "year": "1976",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//yxq4pk1xGmro8tQABuQIrWrvdaE.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//hjmJKAVoZ3n2KWbKgasbfdugwhu.jpg",
+            "regex": "/title/tt0075314"
+        },
+        {
+            "id": "tt0036775",
+            "title": "Double Indemnity",
+            "year": "1944",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//q6Zs4YMbIBuEfCHCtufwPOkyIVz.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//1l77Gk2OK9hjRFze08El8Do3pT1.jpg",
+            "regex": "/title/tt0036775"
+        },
+        {
+            "id": "tt0056172",
+            "title": "Lawrence of Arabia",
+            "year": "1962",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//j21UXCOq0EbV8EPTtmPn1CGePfB.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//lENerYvUcfl9GlolqA1emj5gb4k.jpg",
+            "regex": "/title/tt0056172"
+        },
+        {
+            "id": "tt0435761",
+            "title": "Toy Story 3",
+            "year": "2010",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//tOwAAVeL1p3ls9dhOBo45ElodU3.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//y2qAjM37QgatWeG84DDtwsZuMW.jpg",
+            "regex": "/title/tt0435761"
+        },
+        {
+            "id": "tt0056592",
+            "title": "To Kill a Mockingbird",
+            "year": "1962",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//gQg6sPYfNTUlf8wEtydzWl09RyR.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//eb8EqwtFWVoujlbU8CmaEYc1qE5.jpg",
+            "regex": "/title/tt0056592"
+        },
+        {
+            "id": "tt0338013",
+            "title": "Eternal Sunshine of the Spotless Mind",
+            "year": "2004",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//7y3eYvTsGjxPYDtSnumCLIMDkrV.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//e1uECwkwbD5Zpm9Gc6eb5mbG4C4.jpg",
+            "regex": "/title/tt0338013"
+        },
+        {
+            "id": "tt0086879",
+            "title": "Amadeus",
+            "year": "1984",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//flnoqdC38mbaulAeptjynOFO7yi.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//6GMcKubg3KmrE8snLOCNAtsZWW2.jpg",
+            "regex": "/title/tt0086879"
+        },
+        {
+            "id": "tt0093058",
+            "title": "Full Metal Jacket",
+            "year": "1987",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//29veIwD38rVL2qY74emXQw4y25H.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//nfm6JCKUaM6dT0mATmShLY6cpmc.jpg",
+            "regex": "/title/tt0093058"
+        },
+        {
+            "id": "tt0070735",
+            "title": "The Sting",
+            "year": "1973",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//mQaM8fDQdFWwCTFp0TZG8fChlZ5.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//nMHkmE63qZNuHDILhDCxdoNt9Vq.jpg",
+            "regex": "/title/tt0070735"
+        },
+        {
+            "id": "tt0062622",
+            "title": "2001: A Space Odyssey",
+            "year": "1968",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//90T7b2LIrL07ndYQBmSm09yqVEH.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//pckdZ29bHj11hBsV3SbVVfmCB6C.jpg",
+            "regex": "/title/tt0062622"
+        },
+        {
+            "id": "tt0040522",
+            "title": "Bicycle Thieves",
+            "year": "1948",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//8ipMMbjgAA9M4wpoPc9yxFEiIeA.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//vyz8ZJpATpxWCvYe5caZyzdn9Zq.jpg",
+            "regex": "/title/tt0040522"
+        },
+        {
+            "id": "tt0114709",
+            "title": "Toy Story",
+            "year": "1995",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//uMZqKhT4YA6mqo2yczoznv7IDmv.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dji4Fm0gCDVb9DQQMRvAI8YNnTz.jpg",
+            "regex": "/title/tt0114709"
+        },
+        {
+            "id": "tt0045152",
+            "title": "Singin' in the Rain",
+            "year": "1952",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//s39odBPtyutGBnEfBIpdm0fpRwv.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//cepFIynKWfCIN0M68zYIzhzuuPB.jpg",
+            "regex": "/title/tt0045152"
+        },
+        {
+            "id": "tt0208092",
+            "title": "Snatch",
+            "year": "2000",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//on9JlbGEccLsYkjeEph2Whm1DIp.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//cNLZ7YGRikb4IsLblrzu86ndZPw.jpg",
+            "regex": "/title/tt0208092"
+        },
+        {
+            "id": "tt0361748",
+            "title": "Inglourious Basterds",
+            "year": "2009",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//6zYuTKyvcwmtNvXXvJZNT0IgBL0.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//bk0GylJLneaSbpQZXpgTwleYigq.jpg",
+            "regex": "/title/tt0361748"
+        },
+        {
+            "id": "tt0012349",
+            "title": "The Kid",
+            "year": "1921",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//l2Vouobu5zyFvLajx5ZvnIgXncN.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//nY5Mc9ATFsobWVAJfnviGYaIlVG.jpg",
+            "regex": "/title/tt0012349"
+        },
+        {
+            "id": "tt0071853",
+            "title": "Monty Python and the Holy Grail",
+            "year": "1975",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//jRx1nDUA4sb2NEKQaukXKBz6pCf.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//6fqmcCVci3cSBCgJw8NGXE4ST8G.jpg",
+            "regex": "/title/tt0071853"
+        },
+        {
+            "id": "tt0119488",
+            "title": "L.A. Confidential",
+            "year": "1997",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//rIXzJCAvyd3Ci8ipylDQ5wUKqwh.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//orhLhvWPRYcW2isnqtNKE08sAPV.jpg",
+            "regex": "/title/tt0119488"
+        },
+        {
+            "id": "tt0059578",
+            "title": "For a Few Dollars More",
+            "year": "1965",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//f5cEyMeoSUc5AB7o8WDgFKR8EtY.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//zQajba6IimuGgvu6XCSUb8VpxIE.jpg",
+            "regex": "/title/tt0059578"
+        },
+        {
+            "id": "tt0042876",
+            "title": "Rashômon",
+            "year": "1950",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//mwWJuktWk8z5OY4og0z48Jg4u3n.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//eGWc9KHURMRghR1bEj25hZNztNX.jpg",
+            "regex": "/title/tt0042876"
+        },
+        {
+            "id": "tt0053604",
+            "title": "The Apartment",
+            "year": "1960",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//8nrQKQjD6z0SJouKHQapXzmjFc6.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//vF4d4hAKMcrDE4Y6zLwUSijp32g.jpg",
+            "regex": "/title/tt0053604"
+        },
+        {
+            "id": "tt0086250",
+            "title": "Scarface",
+            "year": "1983",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//zr2p353wrd6j3wjLgDT4TcaestB.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//51fjuzYoJKvGW43j32nBpWW6Tm1.jpg",
+            "regex": "/title/tt0086250"
+        },
+        {
+            "id": "tt0097576",
+            "title": "Indiana Jones and the Last Crusade",
+            "year": "1989",
+            "rating": "8.3",
+            "posterPath": "http://image.tmdb.org/t/p/w300//4p1N2Qrt8j0H8xMHMHvtRxv9weZ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//m3bEQlir8IWpmFocQBXWM5fkHri.jpg",
+            "regex": "/title/tt0097576"
+        },
+        {
+            "id": "tt1832382",
+            "title": "Jodaeiye Nader az Simin",
+            "year": "2011",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//hMQXRvVmlo52rSZjehkBU42ljue.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//iz8eaAVK0HawY8yuoeqAs6Uk83u.jpg",
+            "regex": "/title/tt1832382"
+        },
+        {
+            "id": "tt1187043",
+            "title": "3 Idiots",
+            "year": "2009",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//wbE5SRTZFtQxgj2nIo4HJpQDk0k.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//6LnwpadKFRrqam7IfBAi3lNTz6Y.jpg",
+            "regex": "/title/tt1187043"
+        },
+        {
+            "id": "tt0017136",
+            "title": "Metropolis",
+            "year": "1927",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//qriaeUUwdmlgethK3aSAx68mG05.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//gmH0N0bdlYGN1EUr8U2cMQYyg78.jpg",
+            "regex": "/title/tt0017136"
+        },
+        {
+            "id": "tt2106476",
+            "title": "Jagten",
+            "year": "2012",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//hD42EDHLap5UVmv9CZrUiTxH3rY.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//AhFA76jQDkqnFu1rTNCIkwL1wMu.jpg",
+            "regex": "/title/tt2106476"
+        },
+        {
+            "id": "tt0042192",
+            "title": "All About Eve",
+            "year": "1950",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//dpaRsQ4mkAeF3yEpxsuYPU4T9tJ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dlVEqWvGVie7iZax0MW2zjqIJq0.jpg",
+            "regex": "/title/tt0042192"
+        },
+        {
+            "id": "tt0055630",
+            "title": "Yojimbo",
+            "year": "1961",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//xeN0ZLHOIKuAiffuCgvERft3PkV.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//7geWAyhcmjcMQWcZA5lrS7Le8cG.jpg",
+            "regex": "/title/tt0055630"
+        },
+        {
+            "id": "tt0119217",
+            "title": "Good Will Hunting",
+            "year": "1997",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//jq8LjngZ7XZEQge5JFTdOGMrHyZ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//8vA6dxBzRqSajvqdmTLtoguAa3T.jpg",
+            "regex": "/title/tt0119217"
+        },
+        {
+            "id": "tt0372784",
+            "title": "Batman Begins",
+            "year": "2005",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//xiosOeLfzPbfLfqui41kSWnO0sZ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//65JWXDCAfwHhJKnDwRnEgVB411X.jpg",
+            "regex": "/title/tt0372784"
+        },
+        {
+            "id": "tt0040897",
+            "title": "The Treasure of the Sierra Madre",
+            "year": "1948",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//e3lYTRwiDVPQv07xKldwlLAXikN.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dDuNQNUdVMSKeEOwvuicc7m83IL.jpg",
+            "regex": "/title/tt0040897"
+        },
+        {
+            "id": "tt0053291",
+            "title": "Some Like It Hot",
+            "year": "1959",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//pxc9EFCMYkItESpqqrI783yl8Gh.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//sdibVacEUaYcM41zmepM0J2xNqq.jpg",
+            "regex": "/title/tt0053291"
+        },
+        {
+            "id": "tt1049413",
+            "title": "Up",
+            "year": "2009",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//gfFqBcoFW8uczyl2ytVmVmUg82k.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//qMjbMPkSCc1K19zuXNM2BgIsIRz.jpg",
+            "regex": "/title/tt1049413"
+        },
+        {
+            "id": "tt0105695",
+            "title": "Unforgiven",
+            "year": "1992",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//km6qw4qUkHQRN5y2U1juM1WkBFh.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//vwg6FGap02LkPSeWhiMLDoVwkAz.jpg",
+            "regex": "/title/tt0105695"
+        },
+        {
+            "id": "tt0041959",
+            "title": "The Third Man",
+            "year": "1949",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//xsVmiQG7s2T0UIctSpDvpNv9CX5.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//lrIuSWdC1LfKJZUnBX6axJxzZGe.jpg",
+            "regex": "/title/tt0041959"
+        },
+        {
+            "id": "tt0363163",
+            "title": "Downfall",
+            "year": "2004",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//AbNL77WPf8opIkdShdWMsaS3Cwu.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780/null",
+            "regex": "/title/tt0363163"
+        },
+        {
+            "id": "tt0118849",
+            "title": "Children of Heaven",
+            "year": "1997",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//ik83L4ap4gYzlzGMsm2UqlIlsNe.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//bOzqWHqqFvbAwtC06GgmQgcWLfc.jpg",
+            "regex": "/title/tt0118849"
+        },
+        {
+            "id": "tt0081398",
+            "title": "Raging Bull",
+            "year": "1980",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//3cgzzWsUOBlNjmA5m4qs9BGkezC.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//xXDGjVn3cdNG11FbHufsHDFPJG8.jpg",
+            "regex": "/title/tt0081398"
+        },
+        {
+            "id": "tt0095016",
+            "title": "Die Hard",
+            "year": "1988",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//r7CDkRjZIAP79skLaTTvRk8eUp3.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//j31bCZR33MLwgH5IFMcGKjbr3z5.jpg",
+            "regex": "/title/tt0095016"
+        },
+        {
+            "id": "tt2096673",
+            "title": "Inside Out",
+            "year": "2015",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//aAmfIX3TT40zUHGcCKrlOZRKC7u.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//szytSpLAyBh3ULei3x663mAv5ZT.jpg",
+            "regex": "/title/tt2096673"
+        },
+        {
+            "id": "tt0057115",
+            "title": "The Great Escape",
+            "year": "1963",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//qhy4HgUqhEbwQ1ekKTv7yEB3b0e.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//nb70B4EXuoegiQ0C5N1fNVHIaYc.jpg",
+            "regex": "/title/tt0057115"
+        },
+        {
+            "id": "tt0071315",
+            "title": "Chinatown",
+            "year": "1974",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//iIHO6FzF6lL4mA90rrmk3Y705XS.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//2ZjZn3G425h088DlJ48mMW8Nesj.jpg",
+            "regex": "/title/tt0071315"
+        },
+        {
+            "id": "tt0113277",
+            "title": "Heat",
+            "year": "1995",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//zMyfPUelumio3tiDKPffaUpsQTD.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//jMzVSwQp1lLVq9fnQQ4yOjr1YZ2.jpg",
+            "regex": "/title/tt0113277"
+        },
+        {
+            "id": "tt0457430",
+            "title": "Pan's Labyrinth",
+            "year": "2006",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//t0TDsqbCTgSi0AL7k4baZrOYYhi.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//5zpVFIkIrtGyBjBFeMFuQ416LLc.jpg",
+            "regex": "/title/tt0457430"
+        },
+        {
+            "id": "tt3170832",
+            "title": "Room",
+            "year": "2015",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//eqFckcHuFCT1FrzLOAvXBb4jHwq.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//tBhp8MGaiL3BXpPCSl5xY397sGH.jpg",
+            "regex": "/title/tt3170832"
+        },
+        {
+            "id": "tt0019254",
+            "title": "The Passion of Joan of Arc",
+            "year": "1928",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//5HL0dEJfd7PF0eRiKz8BiNfe8Tf.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//k57KhVZ0uW77LYWJq7sTtO35QxG.jpg",
+            "regex": "/title/tt0019254"
+        },
+        {
+            "id": "tt0047296",
+            "title": "On the Waterfront",
+            "year": "1954",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//rclZsJn4lfWY8AchAcanz63LWpd.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//zXp2ydvhO9qGzpIsb1CWeKnn5yg.jpg",
+            "regex": "/title/tt0047296"
+        },
+        {
+            "id": "tt0096283",
+            "title": "My Neighbor Totoro",
+            "year": "1988",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//2i0OOjvi7CqNQA6ZtYJtL65P9oZ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//56El17WVXXqyZCZvSC8Nyc8yPgx.jpg",
+            "regex": "/title/tt0096283"
+        },
+        {
+            "id": "tt0044741",
+            "title": "Ikiru",
+            "year": "1952",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//gJZyMRUABQdbN38sZtycpTZoGND.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//uTBeH4LbbA0i4HUmeg56QNC1FIt.jpg",
+            "regex": "/title/tt0044741"
+        },
+        {
+            "id": "tt0089881",
+            "title": "Ran",
+            "year": "1985",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//dwYUbrcQAyshW22yoUTzWwwC67b.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//3QWR9tyxLtCz7xANh7nyIxYPISp.jpg",
+            "regex": "/title/tt0089881"
+        },
+        {
+            "id": "tt0015864",
+            "title": "The Gold Rush",
+            "year": "1925",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//5TI6iida487FB4W8pBydAeQijfQ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//q29p6YAp7QMmH3fKyxaVRluyW7Q.jpg",
+            "regex": "/title/tt0015864"
+        },
+        {
+            "id": "tt0031679",
+            "title": "Mr. Smith Goes to Washington",
+            "year": "1939",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//979h64nflLlbtvrQ03tUWpexu0M.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dwy7iMMePSfSNXvahTQPmygot1g.jpg",
+            "regex": "/title/tt0031679"
+        },
+        {
+            "id": "tt0050212",
+            "title": "The Bridge on the River Kwai",
+            "year": "1957",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//vtPR6tSHeu35rF6qTDw3Yjr9eDg.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//d23XXntJrVwNENvdriJdqlW1ae6.jpg",
+            "regex": "/title/tt0050212"
+        },
+        {
+            "id": "tt1305806",
+            "title": "The Secret in Their Eyes",
+            "year": "2009",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//z2mUzEqDi7DtA1E4mYzVjbzXnqE.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//4AXlsl0azR9d9xjX9tDdfAeM8lt.jpg",
+            "regex": "/title/tt1305806"
+        },
+        {
+            "id": "tt0083658",
+            "title": "Blade Runner",
+            "year": "1982",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//5ig0kdWz5kxR4PHjyCgyI5khCzd.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//k36huckDH0v3LP1zo7maFt3mJC0.jpg",
+            "regex": "/title/tt0083658"
+        },
+        {
+            "id": "tt0050976",
+            "title": "The Seventh Seal",
+            "year": "1957",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//iJXSumDrz64AvmFZaHHNBGDO1ex.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//u2YXzSieIsDUZnhPpoytNJiTwyt.jpg",
+            "regex": "/title/tt0050976"
+        },
+        {
+            "id": "tt0120735",
+            "title": "Lock, Stock and Two Smoking Barrels",
+            "year": "1998",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//qV7QaSf7f7yC2lc985zfyOJIAIN.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//kzeR7BA0htJ7BeI6QEUX3PVp39s.jpg",
+            "regex": "/title/tt0120735"
+        },
+        {
+            "id": "tt0347149",
+            "title": "Howl's Moving Castle",
+            "year": "2004",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//iMarB2ior30OAXjPa7QIdeyUfM1.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//cGyqa5PxiWSsG7NSw3ufCj0JW9k.jpg",
+            "regex": "/title/tt0347149"
+        },
+        {
+            "id": "tt0018455",
+            "title": "Sunrise",
+            "year": "1927",
+            "rating": "8.2",
+            "posterPath": "",
+            "backdropPath": "",
+            "regex": "/title/tt0018455"
+        },
+        {
+            "id": "tt0112641",
+            "title": "Casino",
+            "year": "1995",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//xo517ibXBDdYQY81j0WIG7BVcWq.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//eP41pD4YfyVOjdpEaTmoNrL9DGx.jpg",
+            "regex": "/title/tt0112641"
+        },
+        {
+            "id": "tt0017925",
+            "title": "The General",
+            "year": "1926",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//8sE1S2fOW7XMt0URZoHiiNsJMzr.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//2C4XRT2yO6LTUViyduybpEfsJCE.jpg",
+            "regex": "/title/tt0017925"
+        },
+        {
+            "id": "tt0050986",
+            "title": "Wild Strawberries",
+            "year": "1957",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//je9lvVfSihc4L4yMNmw0rg6oks0.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//p0u5vq9oXjMyTZinWTNjYwGRDN4.jpg",
+            "regex": "/title/tt0050986"
+        },
+        {
+            "id": "tt0080678",
+            "title": "The Elephant Man",
+            "year": "1980",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//lDXJUmLQsViSKLbil2luD91l2kE.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//rR479zn26lJp4vNxXKjfBVCHLAW.jpg",
+            "regex": "/title/tt0080678"
+        },
+        {
+            "id": "tt0055031",
+            "title": "Judgment at Nuremberg",
+            "year": "1961",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//iu7VMhBma5S94M3wh0fR8cmwgUf.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//ubHJQehQpcPDo0vBPvyo476DCyf.jpg",
+            "regex": "/title/tt0055031"
+        },
+        {
+            "id": "tt1291584",
+            "title": "Warrior",
+            "year": "2011",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//qzeShckQ34eJJFQ24dTx9QI8kcS.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//t3Y0rPTraupA90fo8o5g64FiuCC.jpg",
+            "regex": "/title/tt1291584"
+        },
+        {
+            "id": "tt0268978",
+            "title": "A Beautiful Mind",
+            "year": "2001",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//4SFqHDZ1NvWdysucWbgnYlobdxC.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//5YF6MwuuKBRKLUE2dz3wetkgxAE.jpg",
+            "regex": "/title/tt0268978"
+        },
+        {
+            "id": "tt0993846",
+            "title": "The Wolf of Wall Street",
+            "year": "2013",
+            "rating": "8.2",
+            "posterPath": "http://image.tmdb.org/t/p/w300//vK1o5rZGqxyovfIhZyMELhk03wO.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dYtAyg4vD88hIfrR1VKDnVGhnE6.jpg",
+            "regex": "/title/tt0993846"
+        },
+        {
+            "id": "tt0434409",
+            "title": "V for Vendetta",
+            "year": "2005",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//AoGpqw4S4ZGgwhlM3FgzFVwyIGl.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//gcxpeba5CtUA8Jkwio8sNZyimEC.jpg",
+            "regex": "/title/tt0434409"
+        },
+        {
+            "id": "tt0046438",
+            "title": "Tokyo Story",
+            "year": "1953",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//a24ciBeCxSMl6lQv10uEfpf918n.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//m55rLpSklCkBmYhhLuZZhhesWFW.jpg",
+            "regex": "/title/tt0046438"
+        },
+        {
+            "id": "tt1255953",
+            "title": "Incendies",
+            "year": "2010",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//sEUG3qjxwHjxkzuO7plrRHhOZUH.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//b7BxW3C4cjVKOlKzFBoMUgyNt6A.jpg",
+            "regex": "/title/tt1255953"
+        },
+        {
+            "id": "tt2488496",
+            "title": "Star Wars: The Force Awakens",
+            "year": "2015",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//weUSwMdQIa3NaXVzwUoIIcAi85d.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//c2Ax8Rox5g6CneChwy1gmu4UbSb.jpg",
+            "regex": "/title/tt2488496"
+        },
+        {
+            "id": "tt1205489",
+            "title": "Gran Torino",
+            "year": "2008",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//yeBc5vpEiqIAZrbVQnl833GlBEi.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//f2fFY79HLf8FadJwoxHxuHN7Bzn.jpg",
+            "regex": "/title/tt1205489"
+        },
+        {
+            "id": "tt0118715",
+            "title": "The Big Lebowski",
+            "year": "1998",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//aHaVjVoXeNanfwUwQ92SG7tosFM.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//uY93JtLsAXLnd38b19dIVRv5L1X.jpg",
+            "regex": "/title/tt0118715"
+        },
+        {
+            "id": "tt0077416",
+            "title": "The Deer Hunter",
+            "year": "1978",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//slNJESItHPqp1CENEJQUPw8d7WE.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//rYKCJ0NiVRmvRyfgO9GjLhSpfV3.jpg",
+            "regex": "/title/tt0077416"
+        },
+        {
+            "id": "tt0117951",
+            "title": "Trainspotting",
+            "year": "1996",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//p1O3eFsdb0GEIYu87xlwV7P4jM1.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//yfNhWKqJFWTRvSo3Qf2x1IFteG3.jpg",
+            "regex": "/title/tt0117951"
+        },
+        {
+            "id": "tt0046912",
+            "title": "Dial M for Murder",
+            "year": "1954",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//mWWXNdtjRy82gZr4eaOEtBWc1JX.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//kmSrCmhF3mB15woqQ7z3Y4UGRwr.jpg",
+            "regex": "/title/tt0046912"
+        },
+        {
+            "id": "tt0116282",
+            "title": "Fargo",
+            "year": "1996",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//aZeX4XNSqa08TdMHRB1gDLO6GOi.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//lGAaaOzqw8nc14HOgSP58TWWo1y.jpg",
+            "regex": "/title/tt0116282"
+        },
+        {
+            "id": "tt0031381",
+            "title": "Gone with the Wind",
+            "year": "1939",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//2m9qsuDpAb6aBMxbKOBU1jsP9qf.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//bGRUMgSvs6wzYQRqehY4Fsup4f1.jpg",
+            "regex": "/title/tt0031381"
+        },
+        {
+            "id": "tt0032976",
+            "title": "Rebecca",
+            "year": "1940",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//e8F834ieev15kapGziv0oSY9GWA.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//ao0OWpQPMy3lagLwksWyciO6Iaj.jpg",
+            "regex": "/title/tt0032976"
+        },
+        {
+            "id": "tt0061512",
+            "title": "Cool Hand Luke",
+            "year": "1967",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//vDwphkloD7ToaDpKASAXGgHOclN.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//97oVyyXriXlwIaiDDvB0p72471o.jpg",
+            "regex": "/title/tt0061512"
+        },
+        {
+            "id": "tt0892769",
+            "title": "How to Train Your Dragon",
+            "year": "2010",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//zMAm3WYmvD40FaWFsOmpicQFabz.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//nMulOcoR6HAahofkcuo4mtA0o9j.jpg",
+            "regex": "/title/tt0892769"
+        },
+        {
+            "id": "tt0266543",
+            "title": "Finding Nemo",
+            "year": "2003",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//zjqInUwldOBa0q07fOyohYCWxWX.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//n2vIGWw4ezslXjlP0VNxkp9wqwU.jpg",
+            "regex": "/title/tt0266543"
+        },
+        {
+            "id": "tt0167404",
+            "title": "The Sixth Sense",
+            "year": "1999",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//imps263dHNe3SuoaAJORZyNTdDT.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//ryQ2ZVpRbdOuUMj9sqT4JwtLGqC.jpg",
+            "regex": "/title/tt0167404"
+        },
+        {
+            "id": "tt0074896",
+            "title": "The Message",
+            "year": "1976",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//7X3KP4dt7hvoQOQ2J6JJ46T3V3H.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//a7PiojGbrSdOPt3q0CwLiINf9mu.jpg",
+            "regex": "/title/tt0074896"
+        },
+        {
+            "id": "tt0084787",
+            "title": "The Thing",
+            "year": "1982",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//s5fH3GqFcHbi2F0NSBSh4KRNTc0.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//91iKlk8z8UoT9PjhBZcb7mtwrRB.jpg",
+            "regex": "/title/tt0084787"
+        },
+        {
+            "id": "tt0477348",
+            "title": "No Country for Old Men",
+            "year": "2007",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//6o0UWX2naW7HK45PDNYmoMIk5qs.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//7hx7ANh11TbbvHLDXUuywYkg5rK.jpg",
+            "regex": "/title/tt0477348"
+        },
+        {
+            "id": "tt0091251",
+            "title": "Come and See",
+            "year": "1985",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//oBR0fDwrtScFfecTPAg10potlzQ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//1RKpaOeY60gCNbkW2xGBrXYkZUg.jpg",
+            "regex": "/title/tt0091251"
+        },
+        {
+            "id": "tt0758758",
+            "title": "Into the Wild",
+            "year": "2007",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//lHyYgaocXR6KcJLxVmxZDj115hH.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//9yJehIjvR7ULOLxeDJoth4kDDNe.jpg",
+            "regex": "/title/tt0758758"
+        },
+        {
+            "id": "tt0978762",
+            "title": "Mary and Max",
+            "year": "2009",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//k0lQISUC4NuvKYasJn59JHc2rla.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//akUyYgdcY3Q4WfbWLDB9Ur8ttFG.jpg",
+            "regex": "/title/tt0978762"
+        },
+        {
+            "id": "tt2267998",
+            "title": "Gone Girl",
+            "year": "2014",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//gdiLTof3rbPDAmPaCf4g6op46bj.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//bt6DhdALyhf90gReozoQ0y3R3vZ.jpg",
+            "regex": "/title/tt2267998"
+        },
+        {
+            "id": "tt0266697",
+            "title": "Kill Bill: Vol. 1",
+            "year": "2003",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//vdENJAPObttowMtIwe9jgtbsEnq.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//kkS8PKa8c134vXsj2fQkNqOaCXU.jpg",
+            "regex": "/title/tt0266697"
+        },
+        {
+            "id": "tt0025316",
+            "title": "It Happened One Night",
+            "year": "1934",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//k63JqnFvkIGWGhjsqRiksZw2OSs.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//rMEcrp9ECschG3kSIZHoUuJAmRk.jpg",
+            "regex": "/title/tt0025316"
+        },
+        {
+            "id": "tt0469494",
+            "title": "There Will Be Blood",
+            "year": "2007",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//p1GnnweLwSe82eMp55VEDio2Rcr.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//xzqwxyQlhbdnnSpFbBpuDhdVZ92.jpg",
+            "regex": "/title/tt0469494"
+        },
+        {
+            "id": "tt0079470",
+            "title": "Life of Brian",
+            "year": "1979",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//wEgm6iVOD4afMlEo1VGi3Yz0cmd.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//wMPlmw0fM1B94XugcuaKGB96Vsd.jpg",
+            "regex": "/title/tt0079470"
+        },
+        {
+            "id": "tt1979320",
+            "title": "Rush",
+            "year": "2013",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//cjEepHZOZAwmK6nAj5jis6HV75E.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//bXRrKLsOgx6Fb1LlmlAezblU7uQ.jpg",
+            "regex": "/title/tt1979320"
+        },
+        {
+            "id": "tt0050783",
+            "title": "Nights of Cabiria",
+            "year": "1957",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//hrb1s3m77DhYvpLbJ2WqCBlZvE6.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//2K5xi7IdUE2uz6RdVndBHut4fzg.jpg",
+            "regex": "/title/tt0050783"
+        },
+        {
+            "id": "tt0395169",
+            "title": "Hotel Rwanda",
+            "year": "2004",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//ux6TRpqIOv6h8VJAiDVQBy2LBBH.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dQCTuhrP8bgsctRYeHSX21ceNX1.jpg",
+            "regex": "/title/tt0395169"
+        },
+        {
+            "id": "tt0091763",
+            "title": "Platoon",
+            "year": "1986",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//sYPOQI57JVNmjiLI3KeZ5KA8O9i.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//ufqPsRItWyFzdFz3MevDkxRF8pT.jpg",
+            "regex": "/title/tt0091763"
+        },
+        {
+            "id": "tt3498820",
+            "title": "Captain America: Civil War",
+            "year": "2016",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//5N20rQURev5CNDcMjHVUZhpoCNC.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//m5O3SZvQ6EgD5XXXLPIP1wLppeW.jpg",
+            "regex": "/title/tt3498820"
+        },
+        {
+            "id": "tt0033870",
+            "title": "The Maltese Falcon",
+            "year": "1941",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//95OOYSeegOX4XW8nAeFJSIdxfM4.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//hQGUl6rlAfUFifCLb9bukpJH42P.jpg",
+            "regex": "/title/tt0033870"
+        },
+        {
+            "id": "tt0046268",
+            "title": "The Wages of Fear",
+            "year": "1953",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//3IGuAr1xsErR4XqmHZcfyQ4f8KY.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//mqsKjPYDvbIYZhghgL4N5HMnEKa.jpg",
+            "regex": "/title/tt0046268"
+        },
+        {
+            "id": "tt0074958",
+            "title": "Network",
+            "year": "1976",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//nFovf0eUlbdGRqjdxETFunUAtI0.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//cD3uUR1xEOB856YUlNxWYJwkuil.jpg",
+            "regex": "/title/tt0074958"
+        },
+        {
+            "id": "tt1895587",
+            "title": "Spotlight",
+            "year": "2015",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//ngKxbvsn9Si5TYVJfi1EGAGwThU.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//mYle76KdC8vaMJz6r73S0nKmnk2.jpg",
+            "regex": "/title/tt1895587"
+        },
+        {
+            "id": "tt1392190",
+            "title": "Mad Max: Fury Road",
+            "year": "2015",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//kqjL17yufvn9OVLyXYpvtyrFfak.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//tbhdm8UJAb4ViCTsulYFL3lxMCd.jpg",
+            "regex": "/title/tt1392190"
+        },
+        {
+            "id": "tt0064115",
+            "title": "Butch Cassidy and the Sundance Kid",
+            "year": "1969",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//gtnV1pc4dXLaQPI10CFRYEnQ00A.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//hgV8ul44zLvDfwh27AIlO4cnM7q.jpg",
+            "regex": "/title/tt0064115"
+        },
+        {
+            "id": "tt1130884",
+            "title": "Shutter Island",
+            "year": "2010",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//2tZqOGvOT5ad6RNc10CYJ2Ol2ED.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//fmLWuAfDPaUa3Vi5nO1YUUyZaX6.jpg",
+            "regex": "/title/tt1130884"
+        },
+        {
+            "id": "tt0053198",
+            "title": "The 400 Blows",
+            "year": "1959",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//nKVXTcCtOc3Zuu4yCEDMOUyeXfH.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//ucrJQXbAeFu9M7dAUtU3PKNWM4R.jpg",
+            "regex": "/title/tt0053198"
+        },
+        {
+            "id": "tt0092005",
+            "title": "Stand by Me",
+            "year": "1986",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//kedC0y75jdzByjuZNLOWIOtduNw.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//abLeo89r15NBTFfosXveyosBrHE.jpg",
+            "regex": "/title/tt0092005"
+        },
+        {
+            "id": "tt0107207",
+            "title": "In the Name of the Father",
+            "year": "1993",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//22UfH59UppgMtDIMjD6DxhO8J2C.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//pBvKhZ0ZrVeu9Nwyr0BHd8emvN4.jpg",
+            "regex": "/title/tt0107207"
+        },
+        {
+            "id": "tt2948356",
+            "title": "Zootopia",
+            "year": "2016",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//sM33SANp9z6rXW8Itn7NnG1GOEs.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//mhdeE1yShHTaDbJVdWyTlzFvNkr.jpg",
+            "regex": "/title/tt2948356"
+        },
+        {
+            "id": "tt2024544",
+            "title": "12 Years a Slave",
+            "year": "2013",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//kb3X943WMIJYVg4SOAyK0pmWL5D.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//xnRPoFI7wzOYviw3PmoG94X2Lnc.jpg",
+            "regex": "/title/tt2024544"
+        },
+        {
+            "id": "tt0060827",
+            "title": "Persona",
+            "year": "1966",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//cjAnlvCrp9ZY7atASUsxRrhve7o.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//hqFN0gOmeXKmKP266CSjbHt9y05.jpg",
+            "regex": "/title/tt0060827"
+        },
+        {
+            "id": "tt2278388",
+            "title": "The Grand Budapest Hotel",
+            "year": "2014",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//nX5XotM9yprCKarRH4fzOq1VM1J.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//n0wbp66glvDXp7aZLHcu2r97MFl.jpg",
+            "regex": "/title/tt2278388"
+        },
+        {
+            "id": "tt0245712",
+            "title": "Amores Perros",
+            "year": "2000",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//8gEXmIzw1tDnBfOaCFPimkNIkmm.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//rGQ5S7T4u1VHRx9yZ11ff8sz2TT.jpg",
+            "regex": "/title/tt0245712"
+        },
+        {
+            "id": "tt3011894",
+            "title": "Relatos salvajes",
+            "year": "2014",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//8qc4aWkYJVXaWcypDusuudnME18.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//eRt2Dow7PxWBr4IbkO29j0tR0da.jpg",
+            "regex": "/title/tt3011894"
+        },
+        {
+            "id": "tt0405159",
+            "title": "Million Dollar Baby",
+            "year": "2004",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//h4VZKi2Jt4VoBYJmtC4c3bO8KqM.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//o4OSztAvDYNDXkn9PJGbaQAO8VG.jpg",
+            "regex": "/title/tt0405159"
+        },
+        {
+            "id": "tt0052618",
+            "title": "Ben-Hur",
+            "year": "1959",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//syPMBvvZsADTTRu3UKuxO1Wflq.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//kV0wiMw24cgac7BqcppgkmUSGIw.jpg",
+            "regex": "/title/tt0052618"
+        },
+        {
+            "id": "tt0093779",
+            "title": "The Princess Bride",
+            "year": "1987",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//gpxjoE0yvRwIhFEJgNArtKtaN7S.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//npIKgqpD8jbowpem9L3U4NUkEO3.jpg",
+            "regex": "/title/tt0093779"
+        },
+        {
+            "id": "tt0052311",
+            "title": "Touch of Evil",
+            "year": "1958",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//h3XSjBS3nTcejB7gUbrFaS6niKy.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//pIWTZLpLfryQj4NrCY4ElI8Sk24.jpg",
+            "regex": "/title/tt0052311"
+        },
+        {
+            "id": "tt0107290",
+            "title": "Jurassic Park",
+            "year": "1993",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//c414cDeQ9b6qLPLeKmiJuLDUREJ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//pquyhnE9XxHOZqpFS2V6vzt0Dry.jpg",
+            "regex": "/title/tt0107290"
+        },
+        {
+            "id": "tt1028532",
+            "title": "Hachi: A Dog's Tale",
+            "year": "2009",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//3MpVmIg6CgOCUrZ2TZ2P0yitCbM.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//m87xptCZD6J15HcioOOX4kfEdeD.jpg",
+            "regex": "/title/tt1028532"
+        },
+        {
+            "id": "tt0087544",
+            "title": "Nausicaä of the Valley of the Wind",
+            "year": "1984",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//y2rl0OkMfZHpBaQYPfSJmLMOxwp.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//qKIldRZ3jy3uGWdrNIt3P7QA5J3.jpg",
+            "regex": "/title/tt0087544"
+        },
+        {
+            "id": "tt0032551",
+            "title": "The Grapes of Wrath",
+            "year": "1940",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//mIk2ferK0lPgTaiAfoI5KvHmUCz.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//zNeB6qyWYLQZSFLJ39q9J4tywIR.jpg",
+            "regex": "/title/tt0032551"
+        },
+        {
+            "id": "tt0075686",
+            "title": "Annie Hall",
+            "year": "1977",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//j9vVQCSyNWvyBU6w9BxExZRlpZZ.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//8iNt5LGxpX9XeNWJgjx17xfTT7u.jpg",
+            "regex": "/title/tt0075686"
+        },
+        {
+            "id": "tt0079944",
+            "title": "Stalker",
+            "year": "1979",
+            "rating": "8.1",
+            "posterPath": "http://image.tmdb.org/t/p/w300//ezt0Z9wIcPIxiks0J4dm8zJn575.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//m7yrs7Sw5WpUNJdqDjEhkNJVpxt.jpg",
+            "regex": "/title/tt0079944"
+        },
+        {
+            "id": "tt0353969",
+            "title": "Memories of Murder",
+            "year": "2003",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//gawnVe9cFowdoDLo9Pok12NTw39.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//uUYCUbgI5VxsUflTMI4Y9L2Y6vb.jpg",
+            "regex": "/title/tt0353969"
+        },
+        {
+            "id": "tt0112471",
+            "title": "Before Sunrise",
+            "year": "1995",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//9NBjDNPHA6SkThIweOs8iCfsA8a.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//x2M8mp6wSU4iFPECacHJkQuuvYx.jpg",
+            "regex": "/title/tt0112471"
+        },
+        {
+            "id": "tt0120382",
+            "title": "The Truman Show",
+            "year": "1998",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//EelZzudHRvJmjWccWscN1S5vmI.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//jMCno3bvbGLkac0ijtgBc47siec.jpg",
+            "regex": "/title/tt0120382"
+        },
+        {
+            "id": "tt0440963",
+            "title": "The Bourne Ultimatum",
+            "year": "2007",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//fHho6JYYY0nRcETWSoeI19iZsNF.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//6WpDOqkZFmhNJ0rwuLJiZVKlZi1.jpg",
+            "regex": "/title/tt0440963"
+        },
+        {
+            "id": "tt0083987",
+            "title": "Gandhi",
+            "year": "1982",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//2z9A4FSu1YySrhhcuqkdMIXpgyN.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dTTTIIAlPZntSRQMGzt3N0F5ul0.jpg",
+            "regex": "/title/tt0083987"
+        },
+        {
+            "id": "tt0046911",
+            "title": "Diabolique",
+            "year": "1955",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//mNaL2CFsABXJKmnst1V2X2Or3Go.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//sLlit90GCQnDjCkoNhqVRlv7nkN.jpg",
+            "regex": "/title/tt0046911"
+        },
+        {
+            "id": "tt0246578",
+            "title": "Donnie Darko",
+            "year": "2001",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//tRV9ShhJkIjGRC6YilqFwgdSjmh.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//mqMGZIMKg2tGEkcuSduAxWAL7UF.jpg",
+            "regex": "/title/tt0246578"
+        },
+        {
+            "id": "tt0075148",
+            "title": "Rocky",
+            "year": "1976",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//lmwGr6J5y6kngFNQuFV2y1yw4OB.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//2kkyt0FLROrXt41IgSdE7goCFNQ.jpg",
+            "regex": "/title/tt0075148"
+        },
+        {
+            "id": "tt0056801",
+            "title": "8½",
+            "year": "1963",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//5pQlc8dp5dXzWg1yM70DZrsDpOl.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//cdccKL6nLs21Ak27BWpryPrxqie.jpg",
+            "regex": "/title/tt0056801"
+        },
+        {
+            "id": "tt1201607",
+            "title": "Harry Potter and the Deathly Hallows: Part 2",
+            "year": "2011",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//fTplI1NCSuEDP4ITLcTps739fcC.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//gblLAEIDoWRN0vBLJyFGUZnf6j5.jpg",
+            "regex": "/title/tt1201607"
+        },
+        {
+            "id": "tt0198781",
+            "title": "Monsters, Inc.",
+            "year": "2001",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//93Y9BGx8blzmZOPSoivkFfaifqU.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//eKBUYeSgGVvztO2MZxD5YMcz6kv.jpg",
+            "regex": "/title/tt0198781"
+        },
+        {
+            "id": "tt0032138",
+            "title": "The Wizard of Oz",
+            "year": "1939",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//tKEHoKPZv3af0Pn3poaOLHOJ6NM.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//pU2hNUkFAiq6HC8vUhnpRVcvH4G.jpg",
+            "regex": "/title/tt0032138"
+        },
+        {
+            "id": "tt0088247",
+            "title": "The Terminator",
+            "year": "1984",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//q8ffBuxQlYOHrvPniLgCbmKK4Lv.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//6yFoLNQgFdVbA8TZMdfgVpszOla.jpg",
+            "regex": "/title/tt0088247"
+        },
+        {
+            "id": "tt1431045",
+            "title": "Deadpool",
+            "year": "2016",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//inVq3FRqcYIRl2la8iZikYYxFNR.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//nbIrDhOtUpdD9HKDBRy02a8VhpV.jpg",
+            "regex": "/title/tt1431045"
+        },
+        {
+            "id": "tt0114746",
+            "title": "Twelve Monkeys",
+            "year": "1995",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//6Sj9wDu3YugthXsU0Vry5XFAZGg.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//6KXbhaxkgExC5EdDqAzRinhmoZ8.jpg",
+            "regex": "/title/tt0114746"
+        },
+        {
+            "id": "tt0107048",
+            "title": "Groundhog Day",
+            "year": "1993",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//vXjVd0Vu0MXRZnga7wEnHIIhO5B.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dTUH9xO3w6vQjcN2ictxgpnAhKm.jpg",
+            "regex": "/title/tt0107048"
+        },
+        {
+            "id": "tt0036868",
+            "title": "The Best Years of Our Lives",
+            "year": "1946",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//kKTyZW3CtyKdDKGtviO1SmbfTe.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//jAlbvHBifse1VTi8gGL4wlVhbvk.jpg",
+            "regex": "/title/tt0036868"
+        },
+        {
+            "id": "tt1663202",
+            "title": "The Revenant",
+            "year": "2015",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//oXUWEc5i3wYyFnL1Ycu8ppxxPvs.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//kiWvoV78Cc3fUwkOHKzyBgVdrDD.jpg",
+            "regex": "/title/tt1663202"
+        },
+        {
+            "id": "tt0338564",
+            "title": "Infernal Affairs",
+            "year": "2002",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//g4LGFGLGjVXkWGYCePbTidw5LKV.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//u7OoqcZzOIL6VXD9JZ5EOSTLt6p.jpg",
+            "regex": "/title/tt0338564"
+        },
+        {
+            "id": "tt0044079",
+            "title": "Strangers on a Train",
+            "year": "1951",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//akslUekHOWvE0UFBVb4GRkxRRoi.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//3DL6BmslkyGHm70HXFNUwoYYIjb.jpg",
+            "regex": "/title/tt0044079"
+        },
+        {
+            "id": "tt0073195",
+            "title": "Jaws",
+            "year": "1975",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//l1yltvzILaZcx2jYvc5sEMkM7Eh.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//slkPgAt1IQgxZXNrazEcOzhAK8f.jpg",
+            "regex": "/title/tt0073195"
+        },
+        {
+            "id": "tt0401792",
+            "title": "Sin City",
+            "year": "2005",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//vKJVGOKPyWqp9d2EX5NH1liqRqR.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//my81Hjt7NpZhaMX9bHi4wVhFy0v.jpg",
+            "regex": "/title/tt0401792"
+        },
+        {
+            "id": "tt0113247",
+            "title": "La Haine",
+            "year": "1995",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//jTzBED0leGPwWDqNewye11qzJgd.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//t52ImvH020yOvoEhH6sRzC6XoCj.jpg",
+            "regex": "/title/tt0113247"
+        },
+        {
+            "id": "tt1392214",
+            "title": "Prisoners",
+            "year": "2013",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//yAhqW57pwMAsCgmZpM5zSIVQVTh.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//cLGKawjQ5tUJCuDyR0OnGYT4fyf.jpg",
+            "regex": "/title/tt1392214"
+        },
+        {
+            "id": "tt0072684",
+            "title": "Barry Lyndon",
+            "year": "1975",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//htHCOsF4oUdMWfLh2PKEDFMn8Oc.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//3xmKw9OSbUrg7GCyhvpMuAXLjRh.jpg",
+            "regex": "/title/tt0072684"
+        },
+        {
+            "id": "tt0041546",
+            "title": "Kind Hearts and Coronets",
+            "year": "1949",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//9br8JAyGAcho4RYHhCegnZ9r1ra.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//9TnerfVXCG5LpSi3V4trF3zxoqO.jpg",
+            "regex": "/title/tt0041546"
+        },
+        {
+            "id": "tt0058946",
+            "title": "The Battle of Algiers",
+            "year": "1966",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//6Kv3n1cgiEAEYF4wepECk1OeH7N.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//j9TWVrd0BHUfk9AuSFnchgexY0A.jpg",
+            "regex": "/title/tt0058946"
+        },
+        {
+            "id": "tt0264464",
+            "title": "Catch Me If You Can",
+            "year": "2002",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//MywWCQGJNUr5kivAQ7eseCG7rm.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//ei0BdAPDALPp21OEZqknG43WOmO.jpg",
+            "regex": "/title/tt0264464"
+        },
+        {
+            "id": "tt0072890",
+            "title": "Dog Day Afternoon",
+            "year": "1975",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//qgWuZ2yNJrclU8EldQG4rLhwMoy.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//gsnPjs2XTBhYDNFgnlsDgjuauDO.jpg",
+            "regex": "/title/tt0072890"
+        },
+        {
+            "id": "tt3659388",
+            "title": "The Martian",
+            "year": "2015",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//5aGhaIHYuQbqlHWvWYqMCnj40y2.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//sy3e2e4JwdAtd2oZGA2uUilZe8j.jpg",
+            "regex": "/title/tt3659388"
+        },
+        {
+            "id": "tt1220719",
+            "title": "Yip Man",
+            "year": "2008",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//8knFfuqW289DJi2cpPl4RVTDkbo.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//lcRGF2RpurdvBiSQVocfzRrxV9u.jpg",
+            "regex": "/title/tt1220719"
+        },
+        {
+            "id": "tt0325980",
+            "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+            "year": "2003",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//tkt9xR1kNX5R9rCebASKck44si2.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//8AUQ7YlJJA9C8kWk8P4YNHIcFDE.jpg",
+            "regex": "/title/tt0325980"
+        },
+        {
+            "id": "tt2084970",
+            "title": "The Imitation Game",
+            "year": "2014",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//noUp0XOqIcmgefRnRZa1nhtRvWO.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//qcb6z1HpokTOKdjqDTsnjJk0Xvg.jpg",
+            "regex": "/title/tt2084970"
+        },
+        {
+            "id": "tt1454029",
+            "title": "The Help",
+            "year": "2011",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//vTPN8vh3ith8nK6Du8ijjzyw04h.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//dskiB6nk4VA9pmw20L9oN7I4tkO.jpg",
+            "regex": "/title/tt1454029"
+        },
+        {
+            "id": "tt0083922",
+            "title": "Fanny and Alexander",
+            "year": "1982",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//v8JxSHKsXIk2vSIuJLkSK7sSv8P.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//5EIG2xjTjj0pqvRjza2Vk5g0Xt2.jpg",
+            "regex": "/title/tt0083922"
+        },
+        {
+            "id": "tt0092067",
+            "title": "Castle in the Sky",
+            "year": "1986",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//4RTG2AaqZ9eleL51ryWwv78WwDu.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//pU8cdLJiyOnFrFlWJEUlIu8S4hQ.jpg",
+            "regex": "/title/tt0092067"
+        },
+        {
+            "id": "tt2015381",
+            "title": "Guardians of the Galaxy",
+            "year": "2014",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//y31QB9kn3XSudA15tV7UWQ9XLuW.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//bHarw8xrmQeqf3t8HpuMY7zoK4x.jpg",
+            "regex": "/title/tt2015381"
+        },
+        {
+            "id": "tt0058461",
+            "title": "A Fistful of Dollars",
+            "year": "1964",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//sFLgxvtK9vxbNq502peVJ847Owp.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//mndYimxcima4Z5YxH8XngTEGi5L.jpg",
+            "regex": "/title/tt0058461"
+        },
+        {
+            "id": "tt0046250",
+            "title": "Roman Holiday",
+            "year": "1953",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//A0JKLHc5rS3uztYl9GDOMwXl1d3.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//lP5RnAzEDWcgSV4a66gYvbSPTkh.jpg",
+            "regex": "/title/tt0046250"
+        },
+        {
+            "id": "tt1954470",
+            "title": "Gangs of Wasseypur",
+            "year": "2012",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//rVmS2lnsQmP5lzLWk3qpYgr8hkM.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//ft4bi0fmwV5BTlI77QTQe67XKBu.jpg",
+            "regex": "/title/tt1954470"
+        },
+        {
+            "id": "tt0848228",
+            "title": "The Avengers",
+            "year": "2012",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//cezWGskPY5x7GaglTTRN4Fugfb8.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//hbn46fQaRmlpBuUrEiFqv0GDL6Y.jpg",
+            "regex": "/title/tt0848228"
+        },
+        {
+            "id": "tt1504320",
+            "title": "The King's Speech",
+            "year": "2010",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//nkFTbA1XjKWo9LCTaV1hV2Lsgr1.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//hAQKDTVKk04LWn82OYWLBPpsaVa.jpg",
+            "regex": "/title/tt1504320"
+        },
+        {
+            "id": "tt2758880",
+            "title": "Kis Uykusu",
+            "year": "2014",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//etAL1QNI1tBMuy4jUPVYLMicbr5.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//7zK5Pra1Rw0yqGDeRqSUj9Xc015.jpg",
+            "regex": "/title/tt2758880"
+        },
+        {
+            "id": "tt0050613",
+            "title": "Throne of Blood",
+            "year": "1957",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//zAQFcJSwqCJaU29LfadifxKloMk.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//7mFDtEcIx2SLNf9O6MNnSTP6TYj.jpg",
+            "regex": "/title/tt0050613"
+        },
+        {
+            "id": "tt0169102",
+            "title": "Lagaan: Once Upon a Time in India",
+            "year": "2001",
+            "rating": "8.0",
+            "posterPath": "http://image.tmdb.org/t/p/w300//iXpV2SCApjhLDvn9Usmk4hiQe4J.jpg",
+            "backdropPath": "http://image.tmdb.org/t/p/w780//lVdqUbABficE68BdlTU9CDcQ7xJ.jpg",
+            "regex": "/title/tt0169102"
+        }
+    ]
+}

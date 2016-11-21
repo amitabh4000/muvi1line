@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include head  %>
+  </head>
+
+
+
+  <body>
+
+    <header>
+      <% include header  %>
+    </header>
+
+    <div class="container" style="max-width:1500px; min-height:100%">
+
+      <div class="row">
+        <% for(var i = 0 ; i < movieArr.length  ;i++ ){%>
+        <div class="col l4 s12 m6">
+        <a href= "#" class="waves-effect waves-light" style="color:#000">
+          <div class="card-panel hoverable" style="height:450px; background-color:#FFFFFF;">
+            <div class="card-image">
+              <img class="responsive-img" src= <%= movieArr[i].imagePath%> style="width:260px">
+            </div>
+            <div class="card-content">
+              <p> <%= movieArr[i].title%> </p>
+            </div>
+            <div class="card-action right-align">
+              <a href="/data-analysis-tutorials/" class="waves-effect waves-light btn" style="color:#000000; background-color:#FFD166"></a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+        <%}%>
+      </div>
+
+    </div>
+
+  </body>
+</html>

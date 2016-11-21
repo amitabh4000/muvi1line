@@ -1,0 +1,30 @@
+{
+  "name": "movie1line",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build":"webpack"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^1.2.0",
+    "aws-sdk": "^2.5.6",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "express-session": "^1.11.3",
+    "jsbn": "^0.1.0",
+    "mongodb": "^2.2.8",
+    "mongoose": "^4.6.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "sjcl": "^1.0.3"
+  },
+  "devDependencies": {
+    "exports-loader": "^0.6.3",
+    "source-map-loader": "^0.1.5",
+    "webpack": "^1.13.2"
+  }
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Cinewitter </title>
+    <link rel="shortcut icon" href="/public/images/Taxi-Driver-icon.png">
+
+    <!-- CSS -->
+    <style>
+        a.link{
+            color:#f4a460
+        }
+    </style>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+    <link rel="stylesheet" href="/public/loginRegister/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/loginRegister/assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/public/loginRegister/assets/css/form-elements.css">
+    <link rel="stylesheet" href="/public/loginRegister/assets/css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicon and touch icons -->
+    <!--<link rel="shortcut icon" href="assets/ico/favicon.png"> -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/loginRegister/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/public/loginRegister/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/public/loginRegister/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/public/loginRegister/assets/ico/apple-touch-icon-57-precomposed.png">
+
+</head>
+
+<body>
+
+
+<h3><a href="/IMDB250" style="color:#9c341a"> I want to continue as a guest </a></h3>
+<!-- Top content -->
+<div class="top-content">
+
+    <div class="inner-bg">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-5">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Username:</label>
+                            <input type="" class="form-control" id="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd">
+                        </div>
+                    </form>
+                    <button type="submit" class="btn btn-default"onclick="authenticateAndEstablishSession()">Submit</button>
+                    <div class="social-login">
+                        <h3>...or login with:</h3>
+                        <div class="social-login-buttons">
+                            <a class="btn btn-link-1 btn-link-1-facebook" href="/auth/facebook">
+                                <i class="fa fa-facebook"></i> Facebook
+                            </a>
+                            <a class="btn btn-link-1 btn-link-1-twitter" href="/auth/twitter">
+                                <i class="fa fa-twitter"></i> Twitter
+                            </a>
+                            <a class="btn btn-link-1 btn-link-1-google-plus" href="/auth/signup">
+                                <i class="fa fa-google-plus"></i> Google Plus
+                            </a>
+                            <a class="btn btn-link-1 btn-link-1-amazon" href="#" style="background-color:#dd2c00">
+                                <i class="fa fa-amazon"></i> Amazon
+                            </a>
+                            <a class="btn btn-link-1 btn-link-1-github" href="#" style="background-color: #343434">
+                                <i class="fa fa-github"></i> Github
+                            </a>
+                            <a class="btn btn-link-1 btn-link-1-linkedin" href="#" style="background-color:#1a237e">
+                                <i class="fa fa-linkedin"></i> Linkedin
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-1 middle-border"></div>
+                <div class="col-sm-1"></div>
+
+                <div class="col-sm-5">
+                    <form action="/signup" method="post">
+                        <div class="form-group">
+                            <label for="form-name">name:</label>
+                            <input type="" class="form-control" id="form-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="form-username">Username:</label>
+                            <input type="" class="form-control" name="username" id="form-username">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">email:</label>
+                            <input type="email" class="form-control" name="email"id="form-email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" name="password"id="form-password">
+                        </div>
+                        </br>
+                    </form>
+                    <button type="submit" class="btn btn-default"onclick="userRegister()">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- Javascript -->
+<script src="/public/js/jsbn.js"> </script>
+<script src="/public/js/jsbn2.js"> </script>
+<script src="/public/js/sjcl.js"> </script>
+<script src="/public/js/jquery.min.js"> </script>
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.5.6.min.js"> </script>
+<script src="/public/js/aws-cognito-sdk.min.js"> </script>
+<script src="/public/js/amazon-cognito-identity.min.js"> </script>
+<script type="text/javascript">
+    function userRegister() {
+        name = $("#form-name").val();
+        username = $("#form-username").val();
+        password = $("#form-password").val();
+        email = $("#form-email").val();
+        console.log("In userRegister function");
+        var CognitoUserPool = AmazonCognitoIdentity.CognitoUserPool;
+        var poolData = {
+            UserPoolId: 'us-east-1_t58MAl0N4', // Your user pool id here
+            ClientId: '8bg8fr38b7bn2i2tpi6sv9gjm' // Your client id here
+        };
+        var userPool = new AWSCognito.CognitoIdentityServiceProvider.CognitoUserPool(poolData);
+        var attributeList = [];
+        var data
+        var dataName = {
+            Name: 'name',
+            Value: name
+        };
+        var dataUsername = {
+            Name: 'preferred_username',
+            Value: username
+        };
+        var dataEmail = {
+            Name: 'email',
+            Value: email
+        };
+        var attributeName = new AWSCognito.CognitoIdentityServiceProvider.CognitoUserAttribute(dataName);
+        var attributePreferredUsername = new AWSCognito.CognitoIdentityServiceProvider.CognitoUserAttribute(dataUsername);
+        var attributeEmail = new AWSCognito.CognitoIdentityServiceProvider.CognitoUserAttribute(dataEmail);
+
+        attributeList.push(attributeName);
+        attributeList.push(attributePreferredUsername);
+        attributeList.push(attributeEmail);
+
+        userPool.signUp(username, password, attributeList, null, function (err, result) {
+            if (err) {
+                alert(err);
+                return;
+            }
+            cognitoUser = result.user;
+            console.log('user name is: ' + cognitoUser.getUsername());
+        })}
+
+    function authenticateAndEstablishSession (){
+        var CognitoUserPool = AmazonCognitoIdentity.CognitoUserPool;
+        console.log("In authentication ")
+        var username = $("#username").val();
+        var password = $("#pwd").val();
+//        var email = $("#form-email").val();
+        var authenticationData = {
+            Username : 'amitabh4000',
+            Password : 'Suman.123'
+        };
+        var authenticationDetails = new AWSCognito.CognitoIdentityServiceProvider.AuthenticationDetails(authenticationData);
+
+        var poolData = {
+            UserPoolId : 'us-east-1_t58MAl0N4', // Your user pool id here
+            ClientId : '8bg8fr38b7bn2i2tpi6sv9gjm' // Your client id here
+        };
+        var userPool = new AWSCognito.CognitoIdentityServiceProvider.CognitoUserPool(poolData);
+
+        var userData = {
+            Username : username,
+            Pool : userPool
+        };
+        var cognitoUser = new AWSCognito.CognitoIdentityServiceProvider.CognitoUser(userData);
+
+        cognitoUser.authenticateUser(
+                authenticationDetails, {
+                    onSuccess: function (result) {
+                        console.log('got success');
+                        console.log('access token + ' + result.getAccessToken().getJwtToken());
+                    AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+                    IdentityPoolId : 'us-east-1:20829922-2088-44ad-9eff-581e014408f3', // your identity pool id here
+                    Logins : {
+                       // Change the key below according to the specific region your user pool is in.
+                       'cognito-idp.us-east-1.amazonaws.com/us-east-1_t58MAl0N4' : result.getIdToken().getJwtToken()
+                   }
+               });
+
+                        // Instantiate aws sdk service objects now that the credentials have been updated.
+                        // example: var s3 = new AWS.S3();
+
+                    },
+
+                    onFailure: function(err) {
+                        console.log("error");
+                        alert(err);
+                    },
+
+                });
+        if (cognitoUser != null) {
+            cognitoUser.getSession(function(err, result) {
+                if (result) {
+                    console.log('You are now logged in.');
+
+                    // Add the User's Id Token to the Cognito credentials login map.
+                    AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+                        IdentityPoolId: 'YOUR_IDENTITY_POOL_ID',
+                        Logins: {
+                            'cognito-idp.us-east-1.amazonaws.com/us-east-1_t58MAl0N4': result.getIdToken().getJwtToken()
+                        }
+                    });
+                }
+            });
+        }
+
+    }
+
+
+</script>
+
+
+</body>
+
+</html>
