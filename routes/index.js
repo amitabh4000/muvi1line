@@ -4,7 +4,7 @@ var router = express.Router();
 var session = require('express-session');
 
 /// import objects and models
-var socialNetwork = require('../socialNetworksID.json');
+var socialNetwork = require('../socialNetworksID.js');
 var User = require('../models/user.js');
 var passport = require('passport');
 
