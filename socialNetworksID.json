@@ -1,11 +1,8 @@
-
-console.log(root);
-var out =
 {
   "facebook": {
     "clientID": "1657517241242338",
     "clientSecret": "c8428f3683975f41ed49dde9f96795f8",
-    "callbackURL": "http://www.muvi1line.com/auth/facebook/callback"
+    "callbackURL": "http://127.0.0.1:8080/auth/facebook/callback"
   },
   "twitter": {
     "clientID": "fx8IgFVbrSPx8tkygGaftaXMx",

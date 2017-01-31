@@ -12,12 +12,16 @@
                         <input name='q' id="search" type="search" placeholder="search"  style='font-size:16px'>
                     </form>
                 </li>
+                <% if (sendObj.sessionVal.cognitoId){%>
+                <li><h6 style="padding-top:15px; color:darkgrey ">Hello <%= sendObj.sessionVal.name%> </h6></li>
+                <%  } %>
                 <li><a href="/">Home</a></li>
                 <li><a href="/IMDB250/"> IMDB top 250 </a></li>
+                <% if (!sendObj.sessionVal.cognitoId){%>
                 <li><a href="/login/">Log in</a></li>
-                <li><a href="/register/">Sign up</a></li>
-
-
+                <% } else {%>
+                <li><a href="/logout/">Log Out</a></li>
+                <% }%>
             </ul>
         </div>
 

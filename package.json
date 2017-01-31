@@ -6,9 +6,6 @@
     "start": "node ./bin/www",
     "build":"webpack"
   },
-  "engines":{
-    "node": "6.9.1"
-  },
   "dependencies": {
     "amazon-cognito-identity-js": "^1.2.0",
     "aws-sdk": "^2.5.6",

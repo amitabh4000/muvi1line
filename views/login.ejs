@@ -69,19 +69,6 @@
                             <a class="btn btn-link-1 btn-link-1-twitter" href="/auth/twitter">
                                 <i class="fa fa-twitter"></i> Twitter
                             </a>
-                            <a class="btn btn-link-1 btn-link-1-google-plus" href="/auth/signup">
-                                <i class="fa fa-google-plus"></i> Google Plus
-                            </a>
-                            <a class="btn btn-link-1 btn-link-1-amazon" href="#" style="background-color:#dd2c00">
-                                <i class="fa fa-amazon"></i> Amazon
-                            </a>
-                            <a class="btn btn-link-1 btn-link-1-github" href="#" style="background-color: #343434">
-                                <i class="fa fa-github"></i> Github
-                            </a>
-                            <a class="btn btn-link-1 btn-link-1-linkedin" href="#" style="background-color:#1a237e">
-                                <i class="fa fa-linkedin"></i> Linkedin
-                            </a>
-
                         </div>
                     </div>
 
@@ -127,7 +114,9 @@
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.5.6.min.js"> </script>
 <script src="/public/js/aws-cognito-sdk.min.js"> </script>
 <script src="/public/js/amazon-cognito-identity.min.js"> </script>
+<script src="/public/javascripts/helperFunctions/ajaxServer.js"> </script>
 <script type="text/javascript">
+
     function userRegister() {
         name = $("#form-name").val();
         username = $("#form-username").val();
@@ -171,27 +160,28 @@
             console.log('user name is: ' + cognitoUser.getUsername());
         })}
 
-    function authenticateAndEstablishSession (){
+    function authenticateAndEstablishSession () {
+        var accessToken;
         var CognitoUserPool = AmazonCognitoIdentity.CognitoUserPool;
         console.log("In authentication ")
         var username = $("#username").val();
         var password = $("#pwd").val();
 //        var email = $("#form-email").val();
         var authenticationData = {
-            Username : 'amitabh4000',
-            Password : 'Suman.123'
+            Username: username,
+            Password: password
         };
         var authenticationDetails = new AWSCognito.CognitoIdentityServiceProvider.AuthenticationDetails(authenticationData);
 
         var poolData = {
-            UserPoolId : 'us-east-1_t58MAl0N4', // Your user pool id here
-            ClientId : '8bg8fr38b7bn2i2tpi6sv9gjm' // Your client id here
+            UserPoolId: 'us-east-1_t58MAl0N4', // Your user pool id here
+            ClientId: '8bg8fr38b7bn2i2tpi6sv9gjm' // Your client id here
         };
         var userPool = new AWSCognito.CognitoIdentityServiceProvider.CognitoUserPool(poolData);
 
         var userData = {
-            Username : username,
-            Pool : userPool
+            Username: username,
+            Pool: userPool
         };
         var cognitoUser = new AWSCognito.CognitoIdentityServiceProvider.CognitoUser(userData);
 
@@ -199,41 +189,68 @@
                 authenticationDetails, {
                     onSuccess: function (result) {
                         console.log('got success');
-                        console.log('access token + ' + result.getAccessToken().getJwtToken());
-                    AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-                    IdentityPoolId : 'us-east-1:20829922-2088-44ad-9eff-581e014408f3', // your identity pool id here
-                    Logins : {
-                       // Change the key below according to the specific region your user pool is in.
-                       'cognito-idp.us-east-1.amazonaws.com/us-east-1_t58MAl0N4' : result.getIdToken().getJwtToken()
-                   }
-               });
-
-                        // Instantiate aws sdk service objects now that the credentials have been updated.
-                        // example: var s3 = new AWS.S3();
-
+                        accessToken = result.getAccessToken().getJwtToken()
+                        console.log('access token + ' + accessToken);
                     },
-
-                    onFailure: function(err) {
+                    onFailure: function (err) {
                         console.log("error");
                         alert(err);
                     },
 
                 });
         if (cognitoUser != null) {
-            cognitoUser.getSession(function(err, result) {
+            cognitoUser.getSession(function (err, result) {
                 if (result) {
-                    console.log('You are now logged in.');
+                    console.log(result);
 
                     // Add the User's Id Token to the Cognito credentials login map.
-                    AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-                        IdentityPoolId: 'YOUR_IDENTITY_POOL_ID',
-                        Logins: {
-                            'cognito-idp.us-east-1.amazonaws.com/us-east-1_t58MAl0N4': result.getIdToken().getJwtToken()
-                        }
-                    });
+                    //sendToServer("http://127.0.0.1:8080/ajax",result.getIdToken().getJwtToken())
+                    getUserInfoAndSend(result.getIdToken().getJwtToken(), cognitoUser);
                 }
             });
         }
+    }
+        function getUserInfoAndSend(idToken,cognitoUser) {
+            if (cognitoUser != null) {
+                cognitoUser.getUserAttributes(function (err, result) {
+                    if (result) {
+                        var name;
+                        for(i = 0 ; i < result.length; i++){
+                            if(result[i].getName()== 'name')
+                                name = result[i].getValue();
+                        }
+                        console.log(name);
+                        sendToServer("http://127.0.0.1:8080/ajaxLogin", idToken, name)
+                    }
+                });
+            }
+        }
+
+
+    function sendToServer(path,val,name) {
+        $.ajax({
+            url: path,
+            type: "POST",
+            dataType: "json",
+            data: JSON.stringify({"val": val,"name":name}),
+            contentType: "application/json",
+            cache: false,
+            async: false,
+            timeout: 5000,
+            complete: function () {
+                //called when complete
+                console.log('process complete');
+            },
+
+            success: function (comment) {
+                console.log(comment);
+                console.log('process sucess');
+            },
+
+            error: function () {
+                console.log('process error');
+            },
+        });
 
     }
 
