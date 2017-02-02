@@ -1,78 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71553fe9-eb96-481f-b137-1f9c8d85c284" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-local/node_modules/passport-strategy/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-local/node_modules/passport-strategy/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-local/node_modules/passport-strategy/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-local/node_modules/passport-strategy/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-local/node_modules/passport-strategy/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-local/node_modules/passport-strategy/lib/strategy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-local/node_modules/passport-strategy/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/lib/errors/internaloautherror.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/lib/requesttoken/session.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/lib/strategy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/examples/express-gdata/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/examples/express-gdata/views/google_calendars.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/examples/express-gdata/views/google_contacts.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/examples/express-gdata/views/layout.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/examples/github-example.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/examples/term.ie.oauth-HMAC-SHA1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/lib/_utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/lib/oauth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/lib/oauth2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/lib/sha1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/tests/oauth2tests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/tests/oauthtests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/tests/sha1tests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/tests/shared.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/passport-strategy/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/passport-strategy/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/passport-strategy/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/passport-strategy/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/passport-strategy/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/passport-strategy/lib/strategy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/passport-strategy/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/utils-merge/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/utils-merge/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/utils-merge/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/utils-merge/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/utils-merge/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/passport-oauth1/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/lib/collection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/__package__.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/changelog" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/dom-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/sax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/node_modules/xtraverse/package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/passport-local/package.json" afterPath="$PROJECT_DIR$/node_modules/passport-local/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/passport-twitter/package.json" afterPath="$PROJECT_DIR$/node_modules/passport-twitter/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-    </list>
+    <list default="true" id="71553fe9-eb96-481f-b137-1f9c8d85c284" name="Default" comment="" />
     <ignored path="movie1line.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -491,12 +420,12 @@
       <workItem from="1483719871048" duration="29148000" />
       <workItem from="1485792560389" duration="23059000" />
       <workItem from="1485831694277" duration="2506000" />
-      <workItem from="1485965262165" duration="47648000" />
+      <workItem from="1485965262165" duration="47774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="475390000" />
+    <option name="totallyTimeSpent" value="475516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
