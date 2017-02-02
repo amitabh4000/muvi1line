@@ -24,7 +24,7 @@ var cognitoGetIdFunc = function (req,res,next){
         }
     };
     console.log("Inside cognitoIdget")
-    console.log(req.session);
+    //console.log(req.session);
     AWS.config.region = config.aws.region;
     /* initialize the Credentials object */
     AWS.config.credentials = new AWS.CognitoIdentityCredentials(params);
@@ -32,12 +32,12 @@ var cognitoGetIdFunc = function (req,res,next){
     AWS.config.credentials.get(function(err){
         if(err) console.log("credentials.get: ".red + err,err.stack);
         else{
-            console.log("Cognito ID success")
-            console.log("Cognito ID id: "+AWS.config.credentials.identityId)
+            //console.log("Cognito ID success")
+            //console.log("Cognito ID id: "+AWS.config.credentials.identityId)
             AWS_TEMP_CREDENTIALS = AWS.config.credentials.data.Credentials;
             COGNITO_IDENTITY_ID = AWS.config.credentials.identityId;
-            console.log("Cognito ID id: "+COGNITO_IDENTITY_ID)
-            console.log("Cognito Identity Id: ".green + COGNITO_IDENTITY_ID);
+            //console.log("Cognito ID id: "+COGNITO_IDENTITY_ID)
+            //console.log("Cognito Identity Id: ".green + COGNITO_IDENTITY_ID);
             //module.exports.cognitoId = COGNITO_IDENTITY_ID;
             req.session.cognitoId = COGNITO_IDENTITY_ID;
             res.redirect(req.session.beforeLoginPage ? req.session.beforeLoginPage : '/IMDB250');
@@ -74,7 +74,22 @@ var cognitoPatchRecordFunc = function (req,res,next){
 
 var cognitoUpdateRecordFunc = function (req,res,next,key,op,val){
 
-    cognitoPatchRecordFunc(req,res,next);
+    cognitosync = new AWS.CognitoSync();
+    cognitosync.listRecords({
+        DatasetName: config.cognito.movieDataset.name,
+        IdentityId: req.session.cognitoId,
+        IdentityPoolId: config.cognito.identityPoolId,
+    },function(err , data) {
+        if (err) console.log("listRecords: ".red + err, err.stack);
+        else {
+            console.log("Get SyncCount before update")
+            console.log(data);
+            req.session.movieRecord = data;
+            console.log(req.session.movieRecord.Records[0].Value);
+            req.session.cognitoSyncToken = data.SyncSessionToken;
+            req.session.syncCount = data.DatasetSyncCount;
+        }
+    })
     var params = {
         DatasetName: config.cognito.movieDataset.name,
         IdentityId: req.session.cognitoId,

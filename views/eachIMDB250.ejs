@@ -18,7 +18,7 @@
             document.write('<script type="text/javascript" src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=0489c402f5/cloudflare.min.js"><'+'\/script>');}}catch(e){};
         //]]>
     </script>
-    <script src="/public/javascripts/helperFunctions/ajaxServer.js"> </script>
+    <script src="/public/javascripts/helperFunctions/AjaxCommunicate.js"> </script>
 </head>
 <!-- CSS -->
 <style>
@@ -52,29 +52,59 @@
                                     <h3> Describe "<%= thisMovie.title %>" in 100 chars... </h3>
                                 </div>
                                 <div class="panel-body">
-                                    <textarea class="form-control" id="comment-post" placeholder="Write here..." rows="3"></textarea>
+
+                                    <% if(Object.keys(thisComment).length == 0 && !isEdit) {%>
+                                    <div id="submit-text">
+                                        <textarea class="form-control" maxLength="100" id="comment-post" placeholder="Write here..." rows="3"></textarea>
+                                        <h1 id = "rem"> </h1>
+                                    </div>
                                     <br />
+                                    <% if(sessionVal.cognitoId){%>
                                     <button type="submit" class="btn btn-default pull-right" style="background-color: #b2406a" onclick="sendToServer()">Submit</button>
+                                    <% }else{%>
+                                    <button type="submit" class="btn btn-default pull-right" style="background-color: #b2406a" onclick="saveData()">Submit</button>
+                                    <%}%>
+
+                                    <%}else if(isEdit){%>
+                                    <div id="submit-text">
+                                        <textarea class="form-control" maxLength="100" id="comment-post"  rows="3"><%= thisComment.body %></textarea>
+                                        <h1 id = "rem"> </h1>
+                                    </div>
+                                    <button type="submit" class="btn btn-default pull-right" style="background-color: #b2406a" onclick="sendToServer()">Submit</button>
+
+                                    <%}else {%>
+                                    <a href="#" class="pull-left">
+                                    </a>
+                                    <div id = "editable-post" class="media-body">
+                                        <span class="text-muted pull-right">
+                                            <small class="text-muted"><%=thisComment.currTime %></small>
+                                        </span>
+                                        <strong class="text-success"> <%=thisComment.username %></strong>
+                                        <p style="font-size: medium">
+                                            <%= thisComment.body %>
+                                        </p>
+                                    </div>
+                                    <button type="submit" class="btn btn-default pull-right" style="background-color: #b2406a" onclick=changeEditToSend()>Edit</button>
+                                    <%}%>
+
                                     <div class="clearfix"></div>
                                     <strong> <hr /> </strong>
                                     <ul class="media-list">
 
                                         <% for(var i = 0 ; i < comments.length  ;i++ ){%>
-
+                                         <% if(comments[i]._id == sessionVal.cognitoId) continue;%>
                                         <li class="media">
                                             <a href="#" class="pull-left">
-                                                <img src="assets/img/1.png" alt="" class="img-circle">
                                             </a>
                                             <div class="media-body">
                                         <span class="text-muted pull-right">
-                                            <small class="text-muted">30 min ago</small>
+                                            <small class="text-muted"><%= comments[i].currTime %></small>
                                         </span>
                                                 <strong class="text-success"> <%=comments[i].username %></strong>
                                                 <p style="font-size: medium">
                                                     <%= comments[i].body %>
                                                 </p>
                                             </div>
-                                            <button type="submit" class="btn btn-default pull-right" style="background-color: #b2406a" onclick="">Edit</button>
                                         </li>
                                         <hr />
                                         <%}%>
@@ -92,38 +122,54 @@
         <script src="/public/javascripts/ajaxXmlHttp.js"> </script>
         <script type="text/javascript">
 
-            function sendToServer() {
+            $(document).ready(function() {
 
-                var path = "http://127.0.0.1:8080/IMDB250/ajax"
-                comment = $("#comment-post").val();
-                console.log("Comment posted is: " + comment);
+                if(localStorage.getItem("isLogin")){
+                    $("#comment-post").val(localStorage.getItem("beforeLogin"));
+                    delete localStorage.isLogin;
+                }
+            })
+            $('#comment-post').keyup(
+                    function(){
+                           var diff = $(this).attr('maxLength') - this.value.length;
+                           if(diff > 10){
+                            $('#rem').html(diff);
+                               $('#rem').css({'color':'green'});
+                            }
+                            else if(diff <= 10 && diff > 5){
+                                $('#rem').html(diff);
+                                $('#rem').css({'color':'orange'});
+                            }
+                            else if(diff <= 5 && diff >= 0){
+                                $('#rem').html(diff);
+                                $('#rem').css({'color':'red'});
+                            }
+                            else if(diff < 0){
+                                $('#rem').html("-" +diff);
+                                $('#rem').css({'color':'red'});
+                            }
+            });
+
+            function changeEditToSend(){
+                var comment = $("#editable-post").val();
+                var path = "http://127.0.0.1:8080/IMDB250/ajaxEdit"
                 var movieId = <%- JSON.stringify(thisMovie.id) %>
-                        console.log("movie id is: "+movieId);
+                AjaxCommunicate(path,comment,movieId);
+            }
+            function sendToServer() {
+                var path = "http://127.0.0.1:8080/IMDB250/ajax"
+                var comment = $("#comment-post").val();
+                console.log("Comment posted is: " + comment);
+                 var movieId = <%- JSON.stringify(thisMovie.id) %>
+                         AjaxCommunicate(path,comment,movieId);
+            }
 
-                $.ajax({
-                    url: path,
-                    type: "POST",
-                    dataType: "json",
-                    data: JSON.stringify({"comment": comment,"movieId":movieId}),
-                    contentType: "application/json",
-                    cache: false,
-                    async: false,
-                    timeout: 500,
-                    complete: function () {
-                        //called when complete
-                        console.log('process complete');
-                    },
-
-                    success: function (comment) {
-                        console.log(comment);
-                        console.log('process sucess');
-                    },
-
-                    error: function () {
-                        console.log('process error');
-                    },
-                });
-
+            function saveData(){
+                console.log("In saveData")
+                var comment = $("#comment-post").val();
+                localStorage.setItem("beforeLogin",comment);
+                localStorage.setItem("isLogin",true);
+                window.location.replace("http://127.0.0.1:8080/login");
             }
 
 

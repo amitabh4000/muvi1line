@@ -11,12 +11,9 @@ var loadCommentFunc = require('../Util/loadComments').loadCommentFunc;
 var pushCommentCallback = require('../Util/pushComments').pushCommentFunc;
 var config = require('./../Util/config');
 var cognitoIdentity = require('../Util/cognitoIdentity');
+var changeEdit = require('../Util/changeEditVar').changeEdit;
 movieArr = movieObj.data;
 routeArr =[];
-
-var COGNITO_DATASET_NAME = "USER_INFO_COMMENTS";
-var COGNITO_SYNC_TOKEN;
-var COGNITO_SYNC_COUNT;
 
 for(var i = 0 ; i < movieArr.length; i++){
     routeArr.push( '/title/' + movieArr[i].id );
@@ -37,5 +34,6 @@ movieArr.forEach(function (thisMovie) {
     var loadCommentCallback = loadCommentFunc(thisMovie);
     router.get(thisMovie.regex, loadCommentCallback);
     router.post('/ajax',jsonParser, pushCommentCallback);
+    router.post('/ajaxEdit',changeEdit);
 })
 module.exports = router;

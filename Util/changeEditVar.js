@@ -1,18 +1,13 @@
 
 var movieModel = require('../models/movie').movieModel
-var cognitoUpdateRecordFunc = require('./cognitoIdentity').cognitoUpdateRecordFunc;
 
-exports.pushCommentFunc = function(req, res, next) {
-    var cognitoId = req.session.cognitoId;
-    console.log("In ajax cognitoId "+cognitoId);
-    var poolId = require('./config').cognito.identityPoolId;
-    var username = req.session.name;
-    console.log("username is "+username);
-    var comment = req.body.comment;
+exports.changeEdit = function(req,res){
+    console.log("In ajaxEdit");
+    req.session.isEdit = true;
+    res.send({"comment":"lol"});
+
     var movieId = req.body.movieId;
-    req.session.isEdit = false;
-   // cognitoUpdateRecordFunc(req,res,next,movieId,'replace',comment);
-    res.send({"comment":comment});
+    var comment = req.body.comment;
     movieModel.update({ "_id":movieId},
         {$pull: {
             'comments': {"_id": cognitoId}
@@ -27,8 +22,7 @@ exports.pushCommentFunc = function(req, res, next) {
                             "_id": cognitoId,
                             "body":comment,
                             "username":username,
-                            "time": Date.now(),
-                            "dateInSimpleFormat": require('./simpleDateFormat').simpleDateFormat()
+                            "time": Date.now()
                         }
                     }
                 },
@@ -37,5 +31,4 @@ exports.pushCommentFunc = function(req, res, next) {
                     console.log(movieId);
                 });
         });
-}
-
+};

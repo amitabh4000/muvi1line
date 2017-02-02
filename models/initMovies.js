@@ -1,6 +1,4 @@
-/**
- * Created by SAmitabh on 04-01-2017.
- */
+
 var movies = require('../imdb250.json');
 var movieModel = require('./movie.js').movieModel;
 
