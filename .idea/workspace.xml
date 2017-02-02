@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71553fe9-eb96-481f-b137-1f9c8d85c284" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Util/changeEditVar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Util/deleteAllComments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Util/simpleDateFormat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Util/timeSimpleFormat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Angular/Imdb250Controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascripts/helperFunctions/ajaxServer.js" afterPath="$PROJECT_DIR$/public/javascripts/helperFunctions/AjaxCommunicate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Util/cognitoIdentity.js" afterPath="$PROJECT_DIR$/Util/cognitoIdentity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Util/loadComments.js" afterPath="$PROJECT_DIR$/Util/loadComments.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Util/pushComments.js" afterPath="$PROJECT_DIR$/Util/pushComments.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/initMovies.js" afterPath="$PROJECT_DIR$/models/initMovies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/movie.js" afterPath="$PROJECT_DIR$/models/movie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/helperFunctions/establishSessionLogin.js" afterPath="$PROJECT_DIR$/public/javascripts/helperFunctions/establishSessionLogin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/helperFunctions/userRegister.js" afterPath="$PROJECT_DIR$/public/javascripts/helperFunctions/userRegister.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/imdb250.js" afterPath="$PROJECT_DIR$/routes/imdb250.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/eachIMDB250.ejs" afterPath="$PROJECT_DIR$/views/eachIMDB250.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/imdb250View.ejs" afterPath="$PROJECT_DIR$/views/imdb250View.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/login.ejs" afterPath="$PROJECT_DIR$/views/login.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
     </list>
     <ignored path="movie1line.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,14 +28,44 @@
       <file leaf-file-name="timeSimpleFormat.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Util/timeSimpleFormat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="578">
               <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imdb250View.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imdb250View.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/imdb250View.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -132,7 +142,6 @@
         <option value="$PROJECT_DIR$/routes/logout.js" />
         <option value="$PROJECT_DIR$/views/header.ejs" />
         <option value="$PROJECT_DIR$/routes/passport.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/Util/config.js" />
         <option value="$PROJECT_DIR$/views/Angular/Imdb250Directive.js" />
         <option value="$PROJECT_DIR$/Util/cognitoIdentity.js" />
@@ -152,6 +161,7 @@
         <option value="$PROJECT_DIR$/views/eachIMDB250.ejs" />
         <option value="$PROJECT_DIR$/views/Angular/Imdb250Controller.js" />
         <option value="$PROJECT_DIR$/views/imdb250View.ejs" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
       </list>
     </option>
   </component>
@@ -214,25 +224,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="views">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="movie1line">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="views">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Angular">
+            <PATH_ELEMENT USER_OBJECT="routes">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -396,12 +388,12 @@
       <workItem from="1483719871048" duration="29148000" />
       <workItem from="1485792560389" duration="23059000" />
       <workItem from="1485831694277" duration="2506000" />
-      <workItem from="1485965262165" duration="44208000" />
+      <workItem from="1485965262165" duration="44847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="471950000" />
+    <option name="totallyTimeSpent" value="472589000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,14 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -624,14 +608,6 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-312">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -684,14 +660,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/initMovies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -763,14 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Util/timeSimpleFormat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/Angular/Imdb250Controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -783,6 +743,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Util/timeSimpleFormat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>

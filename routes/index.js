@@ -19,7 +19,7 @@ router.use(session({
     store:require('../app').connection,
 }));
 
-
+router.use('/' , imdb250);
 router.use('/IMDB250' , imdb250);
 router.post('/ajaxLogin',jsonParser, function(req, res,next) {
     req.session.localToken = req.body.val;
