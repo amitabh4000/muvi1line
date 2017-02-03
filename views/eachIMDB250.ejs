@@ -152,7 +152,7 @@
 
             function changeEditToSend(){
                 var comment = $("#editable-post").val();
-                var base = location.hostname;
+                var base = "www.muvi1line.com";
                 console.log(base);
                 var path = base +"/IMDB250/ajaxEdit";
                 //var path = "http://127.0.0.1:3000/IMDB250/ajaxEdit"
@@ -160,7 +160,7 @@
                 AjaxCommunicate(path,comment,movieId);
             }
             function sendToServer() {
-                var base = location.hostname;
+                var base = "www.muvi1line.com";
                 console.log(base);
                 var path = base +"/IMDB250/ajax";
                 console.log(path);
