@@ -152,12 +152,17 @@
 
             function changeEditToSend(){
                 var comment = $("#editable-post").val();
-                var path = "http://127.0.0.1:8080/IMDB250/ajaxEdit"
+                var base = location.hostname;
+                console.log(base);
+                var path = base +"/IMDB250/ajaxEdit";
+                //var path = "http://127.0.0.1:3000/IMDB250/ajaxEdit"
                 var movieId = <%- JSON.stringify(thisMovie.id) %>
                 AjaxCommunicate(path,comment,movieId);
             }
             function sendToServer() {
-                var path = "http://127.0.0.1:8080/IMDB250/ajax"
+                var base = location.hostname;
+                console.log(base);
+                var path = base +"/IMDB250/ajax";
                 var comment = $("#comment-post").val();
                 console.log("Comment posted is: " + comment);
                  var movieId = <%- JSON.stringify(thisMovie.id) %>
