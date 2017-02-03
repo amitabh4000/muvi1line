@@ -154,7 +154,7 @@
                 var comment = $("#editable-post").val();
                 var base = "www.muvi1line.com";
                 console.log(base);
-                var path = base +"/IMDB250/ajaxEdit";
+                var path = "/ajaxEdit";
                 //var path = "http://127.0.0.1:3000/IMDB250/ajaxEdit"
                 var movieId = <%- JSON.stringify(thisMovie.id) %>
                 AjaxCommunicate(path,comment,movieId);
@@ -162,7 +162,7 @@
             function sendToServer() {
                 var base = "www.muvi1line.com";
                 console.log(base);
-                var path = base +"/IMDB250/ajax";
+                var path ="/ajax";
                 console.log(path);
                 var comment = $("#comment-post").val();
                 console.log("Comment posted is: " + comment);
