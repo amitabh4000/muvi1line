@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="71553fe9-eb96-481f-b137-1f9c8d85c284" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/imdb250.js" afterPath="$PROJECT_DIR$/routes/imdb250.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/eachIMDB250.ejs" afterPath="$PROJECT_DIR$/views/eachIMDB250.ejs" />
     </list>
     <ignored path="movie1line.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="imdb250.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="imdb250.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/imdb250.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            <state relative-caret-position="278">
+              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -96,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eachIMDB250.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="eachIMDB250.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/eachIMDB250.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="103">
@@ -181,8 +180,8 @@
         <option value="$PROJECT_DIR$/views/login.ejs" />
         <option value="$PROJECT_DIR$/Util/changeEditVar.js" />
         <option value="$PROJECT_DIR$/socialNetworksID.json" />
-        <option value="$PROJECT_DIR$/routes/imdb250.js" />
         <option value="$PROJECT_DIR$/views/eachIMDB250.ejs" />
+        <option value="$PROJECT_DIR$/routes/imdb250.js" />
       </list>
     </option>
   </component>
@@ -409,12 +408,12 @@
       <workItem from="1483719871048" duration="29148000" />
       <workItem from="1485792560389" duration="23059000" />
       <workItem from="1485831694277" duration="2506000" />
-      <workItem from="1485965262165" duration="54065000" />
+      <workItem from="1485965262165" duration="54221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="481807000" />
+    <option name="totallyTimeSpent" value="481963000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -803,18 +802,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/imdb250.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/eachIMDB250.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="156" column="29" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/imdb250.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding />
         </state>
       </provider>

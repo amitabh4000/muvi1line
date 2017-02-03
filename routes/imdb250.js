@@ -33,9 +33,9 @@ router.get('/', function(req, res, next) {
 movieArr.forEach(function (thisMovie) {
     var loadCommentCallback = loadCommentFunc(thisMovie);
     router.get(thisMovie.regex, loadCommentCallback);
-    var ajaxPost = thisMovie.regex+'/ajax';
-    router.post(ajaxPost,jsonParser, pushCommentCallback);
-    var ajaxEditPost = thisMovie.regex+'/ajaxEdit';
-    router.post(ajaxPost,changeEdit);
+    //var ajaxPost = thisMovie.regex+'/ajax';
+    router.post('/ajax',jsonParser, pushCommentCallback);
+    //var ajaxEditPost = thisMovie.regex+'/ajaxEdit';
+    router.post('/ajaxEdit',changeEdit);
 })
 module.exports = router;
