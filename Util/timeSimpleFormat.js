@@ -6,19 +6,19 @@ exports.timeSimpleFormat =  function(comment){
     var elapsedSec = elapsedmilli/1000;
 
     if(elapsedSec < 60){
-        return Math.floor(elapsedSec) + "sec ago";
+        return Math.floor(elapsedSec) + " sec ago";
     }
     var elapsedMin = elapsedSec/60;
     if(elapsedMin < 60) {
-        return Math.floor(elapsedMin) + "min ago";
+        return Math.floor(elapsedMin) + " min ago";
     }
     var elapsedHour = elapsedMin/60;
     if(elapsedHour < 24) {
-        return Math.floor(elapsedHour) + "hr ago";
+        return Math.floor(elapsedHour) + " hr ago";
     }
-    var elapsedDays = elapsedHour/24;
-    if(elapsedDays < 7){
-        return Math.floor(elapsedHour) + "day ago";
+    var elapsedDay = elapsedHour/24;
+    if(elapsedDay < 7){
+        return Math.floor(elapsedDay) + " day ago";
     }
     else {
         var today = new Date();
